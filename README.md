@@ -17,11 +17,6 @@ An extensive and commented list of resources on late-interaction multivector ret
 	NAACL, 2021<br>
 	📄 [paper](https://doi.org/10.18653/v1/2021.naacl-main.241)
 
-- *uniCOIL: A Neural Lexical Model for Passage Retrieval*<br>
-	Sean C. Lin, Jheng-Hong Yang, Jimmy Lin<br>
-	ACL, 2021<br>
-	📄 [paper](https://doi.org/10.18653/v1/2021.acl-short.47)
-
 - *ColBERT: Efficient and Effective Passage Search via Contextualized Late Interaction over BERT*<br>
 	Omar Khattab, Matei Zaharia<br>
 	SIGIR, 2020<br>
@@ -48,14 +43,14 @@ An extensive and commented list of resources on late-interaction multivector ret
 	📄 [paper](https://doi.org/10.18653/v1/2023.acl-long.663)
 
 - *Rethinking the Role of Token Retrieval in Multi-Vector Retrieval*<br>
-	Juhee Lee, Zhuyun Dai, Sai Meher Krishna Duddu, Tao Lei, Iftekhar Naim, Ming-Wei Chang, Vincent Y. Zhao<br>
+	Jinhyuk Lee, Zhuyun Dai, Sai Meher Karthik Duddu, Tao Lei, Iftekhar Naim, Ming-Wei Chang, Vincent Y. Zhao<br>
 	NeurIPS, 2023<br>
-	📄 paper
+	📄 [paper](https://dl.acm.org/doi/10.5555/3666122.3666799)
 
 - *SLIM: Sparsified Late Interaction for Multi-Vector Retrieval with Inverted Indexes*<br>
-	Ming Li, Sean C. Lin, Xuchen Ma, Jimmy Lin<br>
+	Minghan Li, Sheng-Chieh Lin, Xueguang Ma, Jimmy Lin<br>
 	SIGIR, 2023<br>
-	📄 [paper](https://doi.org/10.1145/3580305.3599258)
+	📄 [paper](https://doi.org/10.1145/3539618.3591977)
 
 - *SPLATE: Sparse Late Interaction Retrieval*<br>
 	Thibault Formal, Stephane Clinchant, Herve Dejean, Carlos Lassance<br>
@@ -63,9 +58,9 @@ An extensive and commented list of resources on late-interaction multivector ret
 	📄 [paper](https://doi.org/10.1145/3626772.3657968)
 
 - *Muvera: Multi-Vector Retrieval via Fixed Dimensional Encodings*<br>
-	Laxman Dhulipala, Mohammad Hadian, Rahul Jayaram, Jae Lee, Vahab Mirrokni<br>
-	NeurIPS, 2025<br>
-	📄 paper
+	Laxman Dhulipala, Majid Hadian, Rajesh Jayaram, Jason Lee, Vahab Mirrokni<br>
+	NeurIPS, 2024<br>
+	📄 [paper](https://doi.org/10.52202/079017-3204)
 
 - *ColPali: Efficient Document Retrieval with Vision Language Models*<br>
 	Manuel Faysse, Hugues Sibille, Tony Wu, Bilel Omrani, Gautier Viaud, Celine Hudelot, Pierre Colombo<br>
@@ -77,20 +72,10 @@ An extensive and commented list of resources on late-interaction multivector ret
 	CVPR, 2025<br>
 	📄 [paper](https://doi.org/10.48550/arXiv.2503.19009)
 
-- *Hypencoder: Hypernetworks for Information Retrieval*<br>
-	Julian Killingback, Hansi Zeng, Hamed Zamani<br>
-	SIGIR, 2025<br>
-	📄 [paper](https://doi.org/10.1145/3726302.3729983)
-
 - *ColMate: Contrastive Late Interaction and Masked Text for Multimodal Document Retrieval*<br>
-	Ahmed Masry, Megh Thakkar, Patrice Bechard, Sathwik Tejaswi Madhusudhan, Rabiul Awal, Shambhavi Mishra, Serena Do, Shachi Dave, Piyush Khaitan, Livio Baldini Soares<br>
+	Ahmed Masry, Megh Thakkar, Patrice Bechard, Sathwik Tejaswi Madhusudhan, Rabiul Awal, Shambhavi Mishra, Akshay Kalkunte Suresh, Srivatsava Daruru, Enamul Hoque, Spandana Gella, Torsten Scholak, Sai Rajeswar<br>
 	EMNLP, 2025<br>
 	📄 [paper](https://doi.org/10.18653/v1/2025.emnlp-industry.145)
-
-- *SimpleDoc: Multi-Modal Document Understanding with Dual-Cue Page Retrieval and Iterative Refinement*<br>
-	Chelsi Jain, Yiran Wu, Yifan Zeng, Jiale Liu, Shengyu Dai, Zhenwen Shao, Qingyun Wu, Huazheng Wang<br>
-	EMNLP, 2025<br>
-	📄 [paper](https://doi.org/10.18653/v1/2025.emnlp-main.1443)
 
 ## Retrieval
 
@@ -105,19 +90,14 @@ An extensive and commented list of resources on late-interaction multivector ret
 	📄 [paper](https://doi.org/10.1145/3511808.3557325) | 🛠️ [code](https://github.com/stanford-futuredata/ColBERT)
 
 - *DESSERT: An Efficient Algorithm for Vector Set Search with Vector Set Queries*<br>
-	Jovan Engels, Benjamin Coleman, Vivek Lakshman, Anshumali Shrivastava<br>
+	Joshua Engels, Benjamin Coleman, Vihan Lakshman, Anshumali Shrivastava<br>
 	NeurIPS, 2023<br>
-	📄 paper
-
-- *UDAPDR: Unsupervised Domain Adaptation via LLM Prompting and Distillation of Rerankers*<br>
-	Jon Saad-Falcon, Omar Khattab, Keshav Santhanam, Radu Florian, Martin Franz, Salim Roukos, Avirup Sil, Md. Arafat Sultan, Christopher Potts<br>
-	EMNLP, 2023<br>
-	📄 [paper](https://doi.org/10.18653/v1/2023.emnlp-main.693)
+	📄 [paper](https://dl.acm.org/doi/10.5555/3666122.3669096)
 
 - *Efficient Multi-Vector Dense Retrieval with Bit Vectors*<br>
 	Franco Maria Nardini, Cosimo Rulli, Rossano Venturini<br>
 	ECIR, 2024<br>
-	📄 [paper](https://doi.org/10.1007/978-3-031-56060-6_1)
+	📄 [paper](https://doi.org/10.1007/978-3-031-56060-6_1) | 🛠️ [code](https://github.com/CosimoRulli/emvb)
 
 - *A Reproducibility Study of PLAID*<br>
 	Sean MacAvaney, Nicola Tonellotto<br>
@@ -127,32 +107,22 @@ An extensive and commented list of resources on late-interaction multivector ret
 - *IGP: Efficient Multi-Vector Retrieval via Proximity Graph Index*<br>
 	Ziyang Bian, Man Lung Yiu, Buzhou Tang<br>
 	SIGIR, 2025<br>
-	📄 [paper](https://doi.org/10.1145/3726302.3730004)
+	📄 [paper](https://doi.org/10.1145/3726302.3730004) | 🛠️ [code](https://github.com/DBGroup-SUSTech/multi-vector-retrieval)
 
 - *WARP: An Efficient Engine for Multi-Vector Retrieval*<br>
 	Joel L. Scheerer, Matei Zaharia, Christopher Potts, Gustavo Alonso, Omar Khattab<br>
 	SIGIR, 2025<br>
-	📄 [paper](https://doi.org/10.1145/3726302.3729904)
+	📄 [paper](https://doi.org/10.1145/3726302.3729904) | 🛠️ [code](https://github.com/jlscheerer/xtr-warp)
 
 - *Efficient Constant-Space Multi-vector Retrieval*<br>
 	Sean MacAvaney, Antonio Mallia, Nicola Tonellotto<br>
 	ECIR, 2025<br>
 	📄 [paper](https://doi.org/10.1007/978-3-031-88714-7_22)
 
-- *BiMax: Bidirectional MaxSim Score for Document-Level Alignment*<br>
-	Xiaotian Wang, Takehito Utsuro, Masaaki Nagata<br>
-	EMNLP, 2025<br>
-	📄 [paper](https://aclanthology.org/2025.findings-emnlp.704/)
-
-- *LILaC: Late Interacting in Layered Component Graph for Open-domain Multimodal Multihop Retrieval*<br>
-	Joohyung Yun, Doyup Lee, Wook-Shin Han<br>
-	EMNLP, 2025<br>
-	📄 [paper](https://doi.org/10.18653/v1/2025.emnlp-main.1037)
-
 - *Multivector Reranking in the Era of Strong First-Stage Retrievers*<br>
 	Silvio Martinico, Franco Maria Nardini, Cosimo Rulli, Rossano Venturini<br>
-	arXiv, 2026<br>
-	📄 [paper](https://arxiv.org/abs/2601.05200)
+	ECIR, 2026<br>
+	📄 [paper](https://doi.org/10.1007/978-3-032-21324-2_4) | 🛠️ [code](https://github.com/TusKANNy/papers_reproducibility/tree/main/ecir2026) | 🛠️ [code](https://github.com/TusKANNy/kannolo)
 
 ## Software Libraries
 
