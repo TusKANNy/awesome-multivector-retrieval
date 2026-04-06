@@ -126,42 +126,33 @@ An extensive and commented list of resources on late-interaction multivector ret
 
 ## Software Libraries
 
-- [ColBERT](https://github.com/stanford-futuredata/ColBERT) <br>
-	*Reference implementation for ColBERT and ColBERTv2 late-interaction multivector retrieval.*
+- [ColBERT](https://github.com/stanford-futuredata/ColBERT) <img src="images/python-logo.svg" height="16" alt="Python"/><br>
+	*Reference implementation for ColBERT and ColBERTv2, and includes PLAID support for efficient late-interaction retrieval.*
 
-- [RAGatouille](https://github.com/AnswerDotAI/RAGatouille) <br>
+- [RAGatouille](https://github.com/AnswerDotAI/RAGatouille) <img src="images/python-logo.svg" height="16" alt="Python"/><br>
 	*Python toolkit to train and serve ColBERT-based late-interaction retrievers.*
 
-- [PyLate](https://github.com/lightonai/pylate) <br>
-	*Library for late-interaction retrieval pipelines and efficient multivector search integration.*
+- [PyLate](https://github.com/lightonai/pylate) <img src="images/python-logo.svg" height="16" alt="Python"/><br>
+	*Late-interaction retrieval toolkit with efficient multivector indexing and serving utilities.*
 
-- [kANNolo](https://github.com/TusKANNy/kannolo) <br>
-	*Rust and Python library for approximate nearest-neighbor search over dense, sparse, and multivector embeddings.*
+- [kANNolo](https://github.com/TusKANNy/kannolo) <img src="images/python-logo.svg" height="16" alt="Python"/> <img src="images/rust-logo.png" height="22" alt="Rust"/><br>
+	*ANN library for dense, sparse, and multivector retrieval.*
 
-- [Vectorium](https://github.com/TusKANNy/vectorium) <br>
-	*Embedding storage and compression backbone for dense, sparse, and multivector retrieval workloads.*
+- [Vectorium](https://github.com/TusKANNy/vectorium) <img src="images/rust-logo.png" height="22" alt="Rust"/><br>
+	*Rust library for compact storage/access of dense, sparse, and multivector embeddings.*
 
-- [FastPlaid](https://github.com/lightonai/fast-plaid) <br>
-	*High-performance engine for ColBERT-style late-interaction retrieval.*
+- [FastPlaid](https://github.com/lightonai/fast-plaid) <img src="images/python-logo.svg" height="16" alt="Python"/><br>
+	*GPU-optimized engine for ColBERT/PLAID-style late-interaction retrieval.*
 
-- [NextPlaid](https://github.com/lightonai/next-plaid) <br>
-	*Local-first, memory-mapped multivector retrieval database with API support.*
+- [NextPlaid](https://github.com/lightonai/next-plaid) <img src="images/python-logo.svg" height="16" alt="Python"/> <img src="images/rust-logo.png" height="22" alt="Rust"/><br>
+	*CPU-oriented local-first multivector retrieval engine with memory-mapped storage.*
 
-- [Mixpeek](https://mixpeek.com/) <br>
-	*Production infrastructure tailored for multimodal late-interaction retrieval systems.*
+- [EMVB](https://github.com/CosimoRulli/emvb) <img src="images/cpp-logo.svg" height="20" alt="C++"/><br>
+	*Reference implementation for Efficient Multi-Vector Dense Retrieval with Bit Vectors.*
 
-- [Vespa](https://vespa.ai/) <br>
-	*Production search engine with support for token-level interaction ranking and vector retrieval pipelines.*
+- [IGP](https://github.com/DBGroup-SUSTech/multi-vector-retrieval) <img src="images/cpp-logo.svg" height="20" alt="C++"/><br>
+	*Official C++ implementation for IGP: proximity-graph indexing for multi-vector retrieval (with Python scripts for experiments).*
 
-- [Qdrant](https://qdrant.tech/) <br>
-	*Vector database that supports multivector representations and hybrid retrieval deployments.*
-
-- [Weaviate](https://weaviate.io/) <br>
-	*Vector search engine for dense and hybrid retrieval, often used as infrastructure for late-interaction stacks.*
-
-- [Milvus](https://milvus.io/) <br>
-	*Vector database with support for advanced similarity operators used in late-interaction retrieval pipelines.*
-
-- [OpenSearch](https://opensearch.org/) <br>
-	*Open-source search engine with vector and hybrid retrieval support, including late-interaction reranking pipelines.*
+- [WARP](https://github.com/jlscheerer/xtr-warp) <img src="images/python-logo.svg" height="16" alt="Python"/><br>
+	*Official implementation for WARP, an efficient multi-vector retrieval engine.*
 
