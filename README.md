@@ -135,7 +135,7 @@ An extensive and commented list of resources on late-interaction multivector ret
 - [PyLate](https://github.com/lightonai/pylate) <img src="images/python-logo.svg" height="16" alt="Python"/><br>
 	*Late-interaction retrieval toolkit with efficient multivector indexing and serving utilities.*
 
-- [kANNolo](https://github.com/TusKANNy/kannolo) <img src="images/python-logo.svg" height="16" alt="Python"/> <img src="images/rust-logo.png" height="22" alt="Rust"/><br>
+- [kANNolo](https://github.com/TusKANNy/kannolo) <img src="images/rust-logo.png" height="22" alt="Rust"/> <img src="images/python-logo.svg" height="16" alt="Python"/><br>
 	*ANN library for dense, sparse, and multivector retrieval.*
 
 - [Vectorium](https://github.com/TusKANNy/vectorium) <img src="images/rust-logo.png" height="22" alt="Rust"/><br>
@@ -144,7 +144,7 @@ An extensive and commented list of resources on late-interaction multivector ret
 - [FastPlaid](https://github.com/lightonai/fast-plaid) <img src="images/python-logo.svg" height="16" alt="Python"/><br>
 	*GPU-optimized engine for ColBERT/PLAID-style late-interaction retrieval.*
 
-- [NextPlaid](https://github.com/lightonai/next-plaid) <img src="images/python-logo.svg" height="16" alt="Python"/> <img src="images/rust-logo.png" height="22" alt="Rust"/><br>
+- [NextPlaid](https://github.com/lightonai/next-plaid) <img src="images/rust-logo.png" height="22" alt="Rust"/> <img src="images/python-logo.svg" height="16" alt="Python"/><br>
 	*CPU-oriented local-first multivector retrieval engine with memory-mapped storage.*
 
 - [EMVB](https://github.com/CosimoRulli/emvb) <img src="images/cpp-logo.svg" height="20" alt="C++"/><br>
