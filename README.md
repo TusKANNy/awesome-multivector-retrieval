@@ -9,6 +9,10 @@ An extensive and commented list of resources on late-interaction multivector ret
 	- [Models](#models)
 	- [Retrieval](#retrieval)
 	- [Software Libraries](#software-libraries)
+	- [Model Checkpoints](#model-checkpoints)
+	- [Datasets and Encodings](#datasets-and-encodings)
+	  - [`MS MARCO v1`](#ms-marco-v1)
+	  - [`LoTTE-pooled`](#lotte-pooled)
 
 ## Models
 
@@ -77,6 +81,16 @@ An extensive and commented list of resources on late-interaction multivector ret
 	EMNLP, 2025<br>
 	📄 [paper](https://doi.org/10.18653/v1/2025.emnlp-industry.145)
 
+- *PyLate: Flexible Training and Retrieval for Late Interaction Models*<br>
+	Antoine Chaffin, Raphaël Sourty<br>
+	CIKM, 2025<br>
+	📄 [paper](https://doi.org/10.1145/3746252.3761608) | 🛠️ [code](https://github.com/lightonai/pylate)
+
+- *ColBERT-Zero: To Pre-train Or Not To Pre-train ColBERT models*<br>
+	Antoine Chaffin, Luca Arnaboldi, Amélie Chatelain, Florent Krzakala<br>
+	arXiv, 2026<br>
+	📄 [paper](https://arxiv.org/abs/2602.16609)
+
 ## Retrieval
 
 - *Baleen: Robust Multi-Hop Reasoning at Scale via Condensed Retrieval*<br>
@@ -133,7 +147,10 @@ An extensive and commented list of resources on late-interaction multivector ret
 	*Python toolkit to train and serve ColBERT-based late-interaction retrievers.*
 
 - [PyLate](https://github.com/lightonai/pylate) <img src="images/python-logo.svg" height="16" alt="Python"/><br>
-	*Late-interaction retrieval toolkit with efficient multivector indexing and serving utilities.*
+	*Python library for training, fine-tuning, inference, and retrieval with ColBERT-style late-interaction models on single and multi-GPU setups.*
+
+- [PyLate-rs](https://github.com/lightonai/pylate-rs) <img src="images/rust-logo.png" height="22" alt="Rust"/> <img src="images/python-logo.svg" height="16" alt="Python"/><br>
+	*High-performance Rust inference engine for PyLate models, with Python bindings and optimized integration with FastPlaid for retrieval pipelines.*
 
 - [kANNolo](https://github.com/TusKANNy/kannolo) <img src="images/rust-logo.png" height="22" alt="Rust"/> <img src="images/python-logo.svg" height="16" alt="Python"/><br>
 	*ANN library for dense, sparse, and multivector retrieval.*
@@ -155,4 +172,40 @@ An extensive and commented list of resources on late-interaction multivector ret
 
 - [WARP](https://github.com/jlscheerer/xtr-warp) <img src="images/python-logo.svg" height="16" alt="Python"/><br>
 	*Official implementation for WARP, an efficient multi-vector retrieval engine.*
+
+## Model Checkpoints
+
+- [colbert-ir/colbertv2.0](https://huggingface.co/colbert-ir/colbertv2.0)<br>
+	*Official ColBERTv2 checkpoint (MS MARCO-trained) from the ColBERT authors, widely used as the canonical baseline model.*
+
+- [ColBERT-Zero](https://huggingface.co/lightonai/ColBERT-Zero)<br>
+	*Large-scale fully pre-trained ColBERT checkpoint trained on public data and released with the ColBERT-Zero paper.*
+
+- [GTE-ModernColBERT-v1](https://huggingface.co/lightonai/GTE-ModernColBERT-v1)<br>
+	*PyLate late-interaction checkpoint based on ModernBERT with 128-dimensional token embeddings and strong long-context retrieval behavior.*
+
+- [Reason-ModernColBERT](https://huggingface.co/lightonai/Reason-ModernColBERT)<br>
+	*Reasoning-focused late-interaction checkpoint fine-tuned on reasonir-hq, with strong BRIGHT benchmark performance for reasoning-intensive retrieval.*
+
+## Datasets and Encodings
+
+### `MS MARCO v1`
+- **Documents**: `8,841,823`
+- **Queries** [`dev.small`]: `6,980`
+- **Reference Metric**: `MRR@10`
+
+| Encoding | Link | Vector dim | Avg vectors per doc | Avg vectors per query | MRR@10 |
+|---|---|---:|---:|---:|---:|
+| `colbertv2` | [link](https://huggingface.co/datasets/tuskanny/ms_marco_colbertv2/tree/main) | 128 | 67 | 32 | 0.397 |
+
+
+### `LoTTE-pooled`
+- **Documents**: `2,428,854`
+- **Queries** [`dev/search`]: `2,931`
+- **Reference Metric**: `Success@5`
+
+| Encoding | Link | Vector dim | Avg vectors per doc | Avg vectors per query  | Success@5 |
+|---|---|---:|---:|---:|---:|
+| `colbertv2` | [link](https://huggingface.co/datasets/tuskanny/lotte_pooled_colbertv2/tree/main) | 128 | 109 | 32 | `N/A` |
+
 
