@@ -16,15 +16,15 @@ An extensive and commented list of resources on late-interaction multivector ret
 
 ## Models
 
-- *COIL: Revisit Exact Lexical Match in Information Retrieval with Contextualized Inverted List*<br>
-	Luyu Gao, Zhuyun Dai, Jamie Callan<br>
-	NAACL, 2021<br>
-	📄 [paper](https://doi.org/10.18653/v1/2021.naacl-main.241)
-
 - *ColBERT: Efficient and Effective Passage Search via Contextualized Late Interaction over BERT*<br>
 	Omar Khattab, Matei Zaharia<br>
 	SIGIR, 2020<br>
 	📄 [paper](https://doi.org/10.1145/3397271.3401075) | 🛠️ [code](https://github.com/stanford-futuredata/ColBERT)
+
+- *COIL: Revisit Exact Lexical Match in Information Retrieval with Contextualized Inverted List*<br>
+	Luyu Gao, Zhuyun Dai, Jamie Callan<br>
+	NAACL, 2021<br>
+	📄 [paper](https://doi.org/10.18653/v1/2021.naacl-main.241)
 
 - *ColBERTv2: Effective and Efficient Retrieval via Lightweight Late Interaction*<br>
 	Keshav Santhanam, Omar Khattab, Jon Saad-Falcon, Christopher Potts, Matei Zaharia<br>
