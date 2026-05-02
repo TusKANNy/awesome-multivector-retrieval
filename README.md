@@ -173,10 +173,22 @@ An extensive and commented list of resources on late-interaction multivector ret
 - [WARP](https://github.com/jlscheerer/xtr-warp) <img src="images/python-logo.svg" height="16" alt="Python"/><br>
 	*Official implementation for WARP, an efficient multi-vector retrieval engine.*
 
+- [ColGrep](https://github.com/lightonai/next-plaid/tree/main/colgrep) <img src="images/rust-logo.png" height="22" alt="Rust"/> <img src="images/python-logo.svg" height="16" alt="Python"/><br>
+	*High-performance code search CLI tool powered by LateOn-Code and NextPlaid, enabling semantic + hybrid (regex + semantic) code retrieval locally with incremental indexing.*
+
 ## Model Checkpoints
 
 - [colbert-ir/colbertv2.0](https://huggingface.co/colbert-ir/colbertv2.0)<br>
 	*Official ColBERTv2 checkpoint (MS MARCO-trained) from the ColBERT authors, widely used as the canonical baseline model.*
+
+- [lightonai/LateOn](https://huggingface.co/lightonai/LateOn)<br>
+	*State-of-the-art ColBERT model (149M, ModernBERT-based) achieving 57.22 NDCG@10 on BEIR with fully open training data and strong generalization under decontamination.*
+
+- [lightonai/LateOn-Code](https://huggingface.co/lightonai/LateOn-Code)<br>
+	*Specialized ColBERT model (149M parameters) fine-tuned for code retrieval, achieving SOTA on MTEB Code benchmark.*
+
+- [lightonai/LateOn-Code-edge](https://huggingface.co/lightonai/LateOn-Code-edge)<br>
+	*Lightweight code retrieval model (17M parameters) for edge devices, matching larger models while running efficiently on CPU.*
 
 - [ColBERT-Zero](https://huggingface.co/lightonai/ColBERT-Zero)<br>
 	*Large-scale fully pre-trained ColBERT checkpoint trained on public data and released with the ColBERT-Zero paper.*
