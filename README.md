@@ -138,6 +138,11 @@ An extensive and commented list of resources on late-interaction multivector ret
 	ECIR, 2026<br>
 	📄 [paper](https://doi.org/10.1007/978-3-032-21324-2_4) | 🛠️ [code](https://github.com/TusKANNy/papers_reproducibility/tree/main/ecir2026) | 🛠️ [code](https://github.com/TusKANNy/kannolo)
 
+- *Efficient Multivector Retrieval with Token-Aware Clustering and Hierarchical Indexing*<br>
+	Silvio Martinico, Franco Maria Nardini, Cosimo Rulli, Rossano Venturini<br>
+	SIGIR, 2026<br>
+	📄 [paper](https://arxiv.org/abs/2604.28142) | 🛠️ [code](https://github.com/TusKANNy/tachiom)
+
 ## Software Libraries
 
 - [ColBERT](https://github.com/stanford-futuredata/ColBERT) <img src="images/python-logo.svg" height="16" alt="Python"/><br>
@@ -175,6 +180,9 @@ An extensive and commented list of resources on late-interaction multivector ret
 
 - [ColGrep](https://github.com/lightonai/next-plaid/tree/main/colgrep) <img src="images/rust-logo.png" height="22" alt="Rust"/> <img src="images/python-logo.svg" height="16" alt="Python"/><br>
 	*High-performance code search CLI tool powered by LateOn-Code and NextPlaid, enabling semantic + hybrid (regex + semantic) code retrieval locally with incremental indexing.*
+
+- [TACHIOM](https://github.com/TusKANNy/tachiom) <img src="images/rust-logo.png" height="22" alt="Rust"/> <img src="images/python-logo.svg" height="16" alt="Python"/><br>
+	*Fast and scalable multivector retrieval system with Token-Aware Clustering (TAC) and hierarchical Product Quantization for efficient late-interaction search.*
 
 ## Model Checkpoints
 
