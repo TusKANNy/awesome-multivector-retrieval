@@ -91,6 +91,11 @@ An extensive and commented list of resources on late-interaction multivector ret
 	arXiv, 2026<br>
 	📄 [paper](https://arxiv.org/abs/2602.16609)
 
+- *Your Embedding Model is SMARTer Than You Think*<br>
+	Jianrui Zhang, Hyun Jung Lee, Sukanta Ganguly, Tae-Eui Kam, Donghyun Kim, Yong Jae Lee<br>
+	arXiv, 2026<br>
+	📄 [paper](https://arxiv.org/abs/2605.24938) | 🛠️ [code](https://github.com/HanSolo9682/SMART)
+
 ## Retrieval
 
 - *Baleen: Robust Multi-Hop Reasoning at Scale via Condensed Retrieval*<br>
