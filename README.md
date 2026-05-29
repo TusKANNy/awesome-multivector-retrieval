@@ -86,10 +86,20 @@ An extensive and commented list of resources on late-interaction multivector ret
 	CIKM, 2025<br>
 	📄 [paper](https://doi.org/10.1145/3746252.3761608) | 🛠️ [code](https://github.com/lightonai/pylate)
 
+- *CRISP: Clustering Multi-Vector Representations for Denoising and Pruning*<br>
+	João Veneroso, Rajesh Jayaram, Jinmeng Rao, Gustavo Hernández Ábrego, Majid Hadian, Daniel Cer<br>
+	arXiv, 2025<br>
+	📄 [paper](https://arxiv.org/abs/2505.11471)
+
 - *ColBERT-Zero: To Pre-train Or Not To Pre-train ColBERT models*<br>
 	Antoine Chaffin, Luca Arnaboldi, Amélie Chatelain, Florent Krzakala<br>
 	arXiv, 2026<br>
 	📄 [paper](https://arxiv.org/abs/2602.16609)
+
+- *Sculpting the Vector Space: Towards Efficient Multi-Vector Visual Document Retrieval via Prune-then-Merge Framework*<br>
+	Yibo Yan, Mingdong Ou, Yi Cao, Xin Zou, Jiahao Huo, Shuliang Liu, James Kwok, Xuming Hu<br>
+	arXiv, 2026<br>
+	📄 [paper](https://arxiv.org/abs/2602.19549)
 
 - *Your Embedding Model is SMARTer Than You Think*<br>
 	Jianrui Zhang, Hyun Jung Lee, Sukanta Ganguly, Tae-Eui Kam, Donghyun Kim, Yong Jae Lee<br>
@@ -148,6 +158,16 @@ An extensive and commented list of resources on late-interaction multivector ret
 	SIGIR, 2026<br>
 	📄 [paper](https://arxiv.org/abs/2604.28142) | 🛠️ [code](https://github.com/TusKANNy/tachiom)
 
+- *FLASH-MAXSIM: IO-Aware Fused Kernels for Late-Interaction Scoring*<br>
+	Roi Pony, Adi Raz Goldfarb, Idan Friedman, Daniel Ezer, Udi Barzelay<br>
+	arXiv, 2026<br>
+	📄 [paper](https://arxiv.org/abs/2605.29517) | 🛠️ [code](https://github.com/roipony/flash-maxsim)
+
+- *No More K-means: Single-Stage Sparse Coding for Efficient Multi-Vector Retrieval*<br>
+	Lixuan Guo, Yifei Wang, Tiansheng Wen, Aosong Feng, Stefanie Jegelka, Chenyu You<br>
+	ICML, 2026<br>
+	📄 [paper](https://arxiv.org/abs/2605.30120)
+
 ## Software Libraries
 
 - [ColBERT](https://github.com/stanford-futuredata/ColBERT) <img src="images/python-logo.svg" height="16" alt="Python"/><br>
@@ -170,6 +190,12 @@ An extensive and commented list of resources on late-interaction multivector ret
 
 - [FastPlaid](https://github.com/lightonai/fast-plaid) <img src="images/python-logo.svg" height="16" alt="Python"/><br>
 	*GPU-optimized engine for ColBERT/PLAID-style late-interaction retrieval.*
+
+- [Flash-MaxSim](https://github.com/roipony/flash-maxsim) <img src="images/python-logo.svg" height="16" alt="Python"/><br>
+	*IO-aware Triton kernel for MaxSim scoring in ColBERT/ColPali pipelines: tile-by-tile on-chip computation with zero intermediate memory and INT8 quantization support.*
+
+- [maxsim](https://github.com/ErikKaum/maxsim) <img src="images/python-logo.svg" height="16" alt="Python"/><br>
+	*Ahead-of-time compiled MaxSim kernel with CUDA and Metal backends (NVIDIA + Apple Silicon), distributed as a HuggingFace kernels package.*
 
 - [NextPlaid](https://github.com/lightonai/next-plaid) <img src="images/rust-logo.png" height="22" alt="Rust"/> <img src="images/python-logo.svg" height="16" alt="Python"/><br>
 	*CPU-oriented local-first multivector retrieval engine with memory-mapped storage.*
