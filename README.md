@@ -13,6 +13,7 @@ An extensive and commented list of resources on late-interaction multivector ret
 	- [Datasets and Encodings](#datasets-and-encodings)
 	  - [`MS MARCO v1`](#ms-marco-v1)
 	  - [`LoTTE-pooled`](#lotte-pooled)
+	- [Multimedia Resources](#multimedia-resources)
 
 ## Models
 
@@ -260,3 +261,7 @@ An extensive and commented list of resources on late-interaction multivector ret
 | `colbertv2` | [link](https://huggingface.co/datasets/tuskanny/lotte_pooled_colbertv2/tree/main) | 128 | 109 | 32 | `N/A` |
 
 
+## Multimedia Resources
+
+- Omar Khattab on Late Interaction in 2030. [Link](https://www.youtube.com/watch?v=Z2TmdcylyEc)
+- Multi-Vector Search with Amélie Chatelain and Antoine Chaffin - Weaviate Podcast #134. [Link](https://www.youtube.com/watch?v=44GC3E-WbHU)
