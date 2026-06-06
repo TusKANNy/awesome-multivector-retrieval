@@ -169,6 +169,11 @@ An extensive and commented list of resources on late-interaction multivector ret
 	ICML, 2026<br>
 	📄 [paper](https://arxiv.org/abs/2605.30120)
 
+- *SMVE: Sparse Multi-Vector Retrieval*<br>
+	Martin Spisak, Marek Galovic<br>
+	ECIR, 2026<br>
+	📄 [blog](https://www.topk.io/blog/20260311-smve-multi-vector-retrieval)
+
 ## Software Libraries
 
 - [ColBERT](https://github.com/stanford-futuredata/ColBERT) <img src="images/python-logo.svg" height="16" alt="Python"/><br>
@@ -216,6 +221,9 @@ An extensive and commented list of resources on late-interaction multivector ret
 - [TACHIOM](https://github.com/TusKANNy/tachiom) <img src="images/rust-logo.png" height="22" alt="Rust"/> <img src="images/python-logo.svg" height="16" alt="Python"/><br>
 	*Fast and scalable multivector retrieval system with Token-Aware Clustering (TAC) and hierarchical Product Quantization for efficient late-interaction search.*
 
+- [TopK](https://github.com/topk-io/topk) <img src="images/rust-logo.png" height="22" alt="Rust"/> <img src="images/python-logo.svg" height="16" alt="Python"/><br>
+	*Managed retrieval engine with support for late-interaction search over billions of documents, online index updates, filtering, and more.*
+
 ## Model Checkpoints
 
 - [colbert-ir/colbertv2.0](https://huggingface.co/colbert-ir/colbertv2.0)<br>
@@ -238,6 +246,9 @@ An extensive and commented list of resources on late-interaction multivector ret
 
 - [Reason-ModernColBERT](https://huggingface.co/lightonai/Reason-ModernColBERT)<br>
 	*Reasoning-focused late-interaction checkpoint fine-tuned on reasonir-hq, with strong BRIGHT benchmark performance for reasoning-intensive retrieval.*
+
+- [Iso-ModernColBERT](https://huggingface.co/topk-io/Iso-ModernColBERT)<br>
+	*Isotropically corrected version of GTE-ModernColBERT-v1 built for efficient inference and scalable retrieval.*
 
 ## Datasets and Encodings
 
