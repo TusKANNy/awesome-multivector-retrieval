@@ -159,11 +159,6 @@ An extensive and commented list of resources on late-interaction multivector ret
 	SIGIR, 2026<br>
 	📄 [paper](https://arxiv.org/abs/2604.28142) | 🛠️ [code](https://github.com/TusKANNy/tachiom)
 
-- *ColBERTSaR: Sparsified ColBERT Index via Product Quantization*<br>
-	Eugene Yang, Andrew Yates, Dawn Lawrie, James Mayfield, Saron Samuel, Rohan Jha<br>
-	SIGIR, 2026<br>
-	📄 [paper](https://arxiv.org/abs/2606.05568) | 🛠️ [code](https://github.com/hltcoe/ColBERTSaR)
-
 - *FLASH-MAXSIM: IO-Aware Fused Kernels for Late-Interaction Scoring*<br>
 	Roi Pony, Adi Raz Goldfarb, Idan Friedman, Daniel Ezer, Udi Barzelay<br>
 	arXiv, 2026<br>
@@ -173,6 +168,11 @@ An extensive and commented list of resources on late-interaction multivector ret
 	Lixuan Guo, Yifei Wang, Tiansheng Wen, Aosong Feng, Stefanie Jegelka, Chenyu You<br>
 	ICML, 2026<br>
 	📄 [paper](https://arxiv.org/abs/2605.30120)
+
+- *ColBERTSaR: Sparsified ColBERT Index via Product Quantization*<br>
+	Eugene Yang, Andrew Yates, Dawn Lawrie, James Mayfield, Saron Samuel, Rohan Jha<br>
+	SIGIR, 2026<br>
+	📄 [paper](https://arxiv.org/abs/2606.05568) | 🛠️ [code](https://github.com/hltcoe/ColBERTSaR)
 
 - *SMVE: Sparse Multi-Vector Retrieval*<br>
 	Martin Spisak, Marek Galovic<br>
