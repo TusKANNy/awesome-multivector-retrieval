@@ -213,6 +213,9 @@ An extensive and commented list of resources on late-interaction multivector ret
 - [maxsim](https://github.com/ErikKaum/maxsim) <img src="images/python-logo.svg" height="16" alt="Python"/><br>
 	*Ahead-of-time compiled MaxSim kernel with CUDA and Metal backends (NVIDIA + Apple Silicon), distributed as a HuggingFace kernels package.*
 
+- [late-interaction-kernels](https://github.com/hcompai/late-interaction-kernels) <img src="images/python-logo.svg" height="16" alt="Python"/><br>
+	*Fused Triton kernels for MaxSim scoring with CUDA, Metal, and CPU backends, native PyLate/colpali-engine integration, and PLAID-style compressed-index support.*
+
 - [NextPlaid](https://github.com/lightonai/next-plaid) <img src="images/rust-logo.png" height="22" alt="Rust"/> <img src="images/python-logo.svg" height="16" alt="Python"/><br>
 	*CPU-oriented local-first multivector retrieval engine with memory-mapped storage.*
 
