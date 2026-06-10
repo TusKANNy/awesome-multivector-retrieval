@@ -102,6 +102,11 @@ An extensive and commented list of resources on late-interaction multivector ret
 	arXiv, 2026<br>
 	📄 [paper](https://arxiv.org/abs/2602.19549)
 
+- *Multi-Vector Index Compression in Any Modality*<br>
+	Hanxiang Qin, Alexander Martin, Rohan Jha, Chunsheng Zuo, Reno Kriz, Benjamin Van Durme<br>
+	arXiv, 2026<br>
+	📄 [paper](https://arxiv.org/abs/2602.21202) | 🛠️ [code](https://github.com/hanxiangqin/omni-col-press)
+
 - *Your Embedding Model is SMARTer Than You Think*<br>
 	Jianrui Zhang, Hyun Jung Lee, Sukanta Ganguly, Tae-Eui Kam, Donghyun Kim, Yong Jae Lee<br>
 	arXiv, 2026<br>
