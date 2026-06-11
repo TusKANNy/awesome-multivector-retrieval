@@ -204,6 +204,9 @@ An extensive and commented list of resources on late-interaction multivector ret
 - [Vectorium](https://github.com/TusKANNy/vectorium) <img src="images/rust-logo.png" height="22" alt="Rust"/><br>
 	*Rust library for compact storage/access of dense, sparse, and multivector embeddings.*
 
+- [Firn](https://github.com/gordonmurray/firnflow) <img src="images/rust-logo.png" height="22" alt="Rust"/><br>
+	*Rust search engine for single-vector and late-interaction multivector namespaces, backed by LanceDB on object storage with RAM/NVMe result caching.*
+
 - [FastPlaid](https://github.com/lightonai/fast-plaid) <img src="images/python-logo.svg" height="16" alt="Python"/><br>
 	*GPU-optimized engine for ColBERT/PLAID-style late-interaction retrieval.*
 
