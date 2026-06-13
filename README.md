@@ -35,7 +35,7 @@ An extensive and commented list of resources on late-interaction multivector ret
 - *Introducing Neural Bag of Whole-Words with ColBERTer: Contextualized Late Interactions using Enhanced Reduction*<br>
 	Sebastian Hofstatter, Omar Khattab, Sophia Althammer, Mete Sertkan, Allan Hanbury<br>
 	CIKM, 2022<br>
-	📄 [paper](https://doi.org/10.1145/3511808.3557367)
+	📄 [paper](https://doi.org/10.1145/3511808.3557367) | 🛠️ [code](https://github.com/sebastian-hofstaetter/colberter)
 
 - *Joint Optimization of Multi-Vector Representation with Product Quantization*<br>
 	Yufan Fang, Jing Zhan, Yiqun Liu, Jiafeng Mao, Min Zhang, Shaoping Ma<br>
@@ -67,6 +67,11 @@ An extensive and commented list of resources on late-interaction multivector ret
 	NeurIPS, 2024<br>
 	📄 [paper](https://doi.org/10.52202/079017-3204)
 
+- *Enhancing ColBERT: A Method for Reducing Space Complexity and Accelerating Retrieval Speed*<br>
+	Hai Nguyen T., Huong Le T.<br>
+	PACLIC, 2024<br>
+	📄 [paper](https://aclanthology.org/2024.paclic-1.79/)
+
 - *ColPali: Efficient Document Retrieval with Vision Language Models*<br>
 	Manuel Faysse, Hugues Sibille, Tony Wu, Bilel Omrani, Gautier Viaud, Celine Hudelot, Pierre Colombo<br>
 	ICLR, 2025<br>
@@ -91,6 +96,16 @@ An extensive and commented list of resources on late-interaction multivector ret
 	João Veneroso, Rajesh Jayaram, Jinmeng Rao, Gustavo Hernández Ábrego, Majid Hadian, Daniel Cer<br>
 	arXiv, 2025<br>
 	📄 [paper](https://arxiv.org/abs/2505.11471)
+
+- *Token Pruning Optimization for Efficient Multi-vector Dense Retrieval*<br>
+	Shanxiu He, Mutasem Al-Darabsah, Suraj Nair, Jonathan May, Tarun Agarwal, Tao Yang, Choon Hui Teo<br>
+	ECIR, 2025<br>
+	📄 [paper](https://doi.org/10.1007/978-3-031-88708-6_7)
+
+- *Towards Lossless Token Pruning in Late-Interaction Retrieval Models*<br>
+	Yuxuan Zong, Benjamin Piwowarski<br>
+	SIGIR, 2025<br>
+	📄 [paper](https://doi.org/10.1145/3726302.3730100)
 
 - *ColBERT-Zero: To Pre-train Or Not To Pre-train ColBERT models*<br>
 	Antoine Chaffin, Luca Arnaboldi, Amélie Chatelain, Florent Krzakala<br>
@@ -268,6 +283,9 @@ An extensive and commented list of resources on late-interaction multivector ret
 
 - [Iso-ModernColBERT](https://huggingface.co/topk-io/Iso-ModernColBERT)<br>
 	*Isotropically corrected version of GTE-ModernColBERT-v1 built for efficient inference and scalable retrieval.*
+
+- [colberter-128-32-msmarco](https://huggingface.co/sebastian-hofstaetter/colberter-128-32-msmarco) / [uni-colberter-128-1-msmarco](https://huggingface.co/sebastian-hofstaetter/uni-colberter-128-1-msmarco)<br>
+	*ColBERTer checkpoints trained on MS MARCO (128-dim, with 32 and 1 unique whole-word vectors per document respectively).*
 
 ## Datasets and Encodings
 
