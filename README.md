@@ -8,9 +8,9 @@ An extensive and commented list of resources on late-interaction multivector ret
 	- [Contents](#contents)
 	- [Models](#models)
 		- [Foundational Models](#foundational-models)
+		- [General Models \& Training](#general-models--training)
 		- [Compression \& Token Pruning](#compression--token-pruning)
 		- [Multimodal \& Vision](#multimodal--vision)
-		- [General Models \& Training](#general-models--training)
 	- [Retrieval](#retrieval)
 		- [Indexing \& Search Algorithms](#indexing--search-algorithms)
 		- [Scoring Kernels](#scoring-kernels)
@@ -44,6 +44,23 @@ An extensive and commented list of resources on late-interaction multivector ret
 	Keshav Santhanam, Omar Khattab, Jon Saad-Falcon, Christopher Potts, Matei Zaharia<br>
 	NAACL, 2022<br>
 	📄 [paper](https://doi.org/10.18653/v1/2022.naacl-main.272) | 🛠️ [code](https://github.com/stanford-futuredata/ColBERT)
+
+### General Models & Training
+
+- *PyLate: Flexible Training and Retrieval for Late Interaction Models*<br>
+	Antoine Chaffin, Raphaël Sourty<br>
+	CIKM, 2025<br>
+	📄 [paper](https://doi.org/10.1145/3746252.3761608) | 🛠️ [code](https://github.com/lightonai/pylate)
+
+- *ColBERT-Zero: To Pre-train Or Not To Pre-train ColBERT models*<br>
+	Antoine Chaffin, Luca Arnaboldi, Amélie Chatelain, Florent Krzakala<br>
+	arXiv, 2026<br>
+	📄 [paper](https://arxiv.org/abs/2602.16609)
+
+- *Your Embedding Model is SMARTer Than You Think*<br>
+	Jianrui Zhang, Hyun Jung Lee, Sukanta Ganguly, Tae-Eui Kam, Donghyun Kim, Yong Jae Lee<br>
+	arXiv, 2026<br>
+	📄 [paper](https://arxiv.org/abs/2605.24938) | 🛠️ [code](https://github.com/HanSolo9682/SMART)
 
 ### Compression & Token Pruning
 
@@ -128,23 +145,6 @@ An extensive and commented list of resources on late-interaction multivector ret
 	Ahmed Masry, Megh Thakkar, Patrice Bechard, Sathwik Tejaswi Madhusudhan, Rabiul Awal, Shambhavi Mishra, Akshay Kalkunte Suresh, Srivatsava Daruru, Enamul Hoque, Spandana Gella, Torsten Scholak, Sai Rajeswar<br>
 	EMNLP, 2025<br>
 	📄 [paper](https://doi.org/10.18653/v1/2025.emnlp-industry.145)
-
-### General Models & Training
-
-- *PyLate: Flexible Training and Retrieval for Late Interaction Models*<br>
-	Antoine Chaffin, Raphaël Sourty<br>
-	CIKM, 2025<br>
-	📄 [paper](https://doi.org/10.1145/3746252.3761608) | 🛠️ [code](https://github.com/lightonai/pylate)
-
-- *ColBERT-Zero: To Pre-train Or Not To Pre-train ColBERT models*<br>
-	Antoine Chaffin, Luca Arnaboldi, Amélie Chatelain, Florent Krzakala<br>
-	arXiv, 2026<br>
-	📄 [paper](https://arxiv.org/abs/2602.16609)
-
-- *Your Embedding Model is SMARTer Than You Think*<br>
-	Jianrui Zhang, Hyun Jung Lee, Sukanta Ganguly, Tae-Eui Kam, Donghyun Kim, Yong Jae Lee<br>
-	arXiv, 2026<br>
-	📄 [paper](https://arxiv.org/abs/2605.24938) | 🛠️ [code](https://github.com/HanSolo9682/SMART)
 
 ## Retrieval
 
