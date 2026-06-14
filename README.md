@@ -79,15 +79,15 @@ An extensive and commented list of resources on late-interaction multivector ret
 	ACL, 2023<br>
 	📄 [paper](https://doi.org/10.18653/v1/2023.acl-long.663)
 
-- *Rethinking the Role of Token Retrieval in Multi-Vector Retrieval*<br>
-	Jinhyuk Lee, Zhuyun Dai, Sai Meher Karthik Duddu, Tao Lei, Iftekhar Naim, Ming-Wei Chang, Vincent Y. Zhao<br>
-	NeurIPS, 2023<br>
-	📄 [paper](https://dl.acm.org/doi/10.5555/3666122.3666799)
-
 - *SLIM: Sparsified Late Interaction for Multi-Vector Retrieval with Inverted Indexes*<br>
 	Minghan Li, Sheng-Chieh Lin, Xueguang Ma, Jimmy Lin<br>
 	SIGIR, 2023<br>
 	📄 [paper](https://doi.org/10.1145/3539618.3591977)
+
+- *Rethinking the Role of Token Retrieval in Multi-Vector Retrieval*<br>
+	Jinhyuk Lee, Zhuyun Dai, Sai Meher Karthik Duddu, Tao Lei, Iftekhar Naim, Ming-Wei Chang, Vincent Y. Zhao<br>
+	NeurIPS, 2023<br>
+	📄 [paper](https://dl.acm.org/doi/10.5555/3666122.3666799)
 
 - *SPLATE: Sparse Late Interaction Retrieval*<br>
 	Thibault Formal, Stephane Clinchant, Herve Dejean, Carlos Lassance<br>
@@ -104,15 +104,15 @@ An extensive and commented list of resources on late-interaction multivector ret
 	PACLIC, 2024<br>
 	📄 [paper](https://aclanthology.org/2024.paclic-1.79/)
 
-- *CRISP: Clustering Multi-Vector Representations for Denoising and Pruning*<br>
-	João Veneroso, Rajesh Jayaram, Jinmeng Rao, Gustavo Hernández Ábrego, Majid Hadian, Daniel Cer<br>
-	arXiv, 2025<br>
-	📄 [paper](https://arxiv.org/abs/2505.11471)
-
 - *Token Pruning Optimization for Efficient Multi-vector Dense Retrieval*<br>
 	Shanxiu He, Mutasem Al-Darabsah, Suraj Nair, Jonathan May, Tarun Agarwal, Tao Yang, Choon Hui Teo<br>
 	ECIR, 2025<br>
 	📄 [paper](https://doi.org/10.1007/978-3-031-88708-6_7)
+
+- *CRISP: Clustering Multi-Vector Representations for Denoising and Pruning*<br>
+	João Veneroso, Rajesh Jayaram, Jinmeng Rao, Gustavo Hernández Ábrego, Majid Hadian, Daniel Cer<br>
+	arXiv, 2025<br>
+	📄 [paper](https://arxiv.org/abs/2505.11471)
 
 - *Towards Lossless Token Pruning in Late-Interaction Retrieval Models*<br>
 	Yuxuan Zong, Benjamin Piwowarski<br>
@@ -175,6 +175,11 @@ An extensive and commented list of resources on late-interaction multivector ret
 	SIGIR, 2024<br>
 	📄 [paper](https://doi.org/10.1145/3626772.3657856)
 
+- *Efficient Constant-Space Multi-vector Retrieval*<br>
+	Sean MacAvaney, Antonio Mallia, Nicola Tonellotto<br>
+	ECIR, 2025<br>
+	📄 [paper](https://doi.org/10.1007/978-3-031-88714-7_22)
+
 - *IGP: Efficient Multi-Vector Retrieval via Proximity Graph Index*<br>
 	Ziyang Bian, Man Lung Yiu, Buzhou Tang<br>
 	SIGIR, 2025<br>
@@ -185,30 +190,25 @@ An extensive and commented list of resources on late-interaction multivector ret
 	SIGIR, 2025<br>
 	📄 [paper](https://doi.org/10.1145/3726302.3729904) | 🛠️ [code](https://github.com/jlscheerer/xtr-warp)
 
-- *Efficient Constant-Space Multi-vector Retrieval*<br>
-	Sean MacAvaney, Antonio Mallia, Nicola Tonellotto<br>
-	ECIR, 2025<br>
-	📄 [paper](https://doi.org/10.1007/978-3-031-88714-7_22)
-
 - *Multivector Reranking in the Era of Strong First-Stage Retrievers*<br>
 	Silvio Martinico, Franco Maria Nardini, Cosimo Rulli, Rossano Venturini<br>
 	ECIR, 2026<br>
 	📄 [paper](https://doi.org/10.1007/978-3-032-21324-2_4) | 🛠️ [code](https://github.com/TusKANNy/papers_reproducibility/tree/main/ecir2026) | 🛠️ [code](https://github.com/TusKANNy/kannolo)
 
-- *Efficient Multivector Retrieval with Token-Aware Clustering and Hierarchical Indexing*<br>
-	Silvio Martinico, Franco Maria Nardini, Cosimo Rulli, Rossano Venturini<br>
-	SIGIR, 2026<br>
-	📄 [paper](https://arxiv.org/abs/2604.28142) | 🛠️ [code](https://github.com/TusKANNy/tachiom)
+- *SMVE: Sparse Multi-Vector Retrieval*<br>
+	Martin Spisak, Marek Galovic<br>
+	ECIR, 2026<br>
+	📄 [blog](https://www.topk.io/blog/20260311-smve-multi-vector-retrieval)
 
 - *No More K-means: Single-Stage Sparse Coding for Efficient Multi-Vector Retrieval*<br>
 	Lixuan Guo, Yifei Wang, Tiansheng Wen, Aosong Feng, Stefanie Jegelka, Chenyu You<br>
 	ICML, 2026<br>
 	📄 [paper](https://arxiv.org/abs/2605.30120)
 
-- *SMVE: Sparse Multi-Vector Retrieval*<br>
-	Martin Spisak, Marek Galovic<br>
-	ECIR, 2026<br>
-	📄 [blog](https://www.topk.io/blog/20260311-smve-multi-vector-retrieval)
+- *Efficient Multivector Retrieval with Token-Aware Clustering and Hierarchical Indexing*<br>
+	Silvio Martinico, Franco Maria Nardini, Cosimo Rulli, Rossano Venturini<br>
+	SIGIR, 2026<br>
+	📄 [paper](https://arxiv.org/abs/2604.28142) | 🛠️ [code](https://github.com/TusKANNy/tachiom)
 
 - *ColBERTSaR: Sparsified ColBERT Index via Product Quantization*<br>
 	Eugene Yang, Andrew Yates, Dawn Lawrie, James Mayfield, Saron Samuel, Rohan Jha<br>
