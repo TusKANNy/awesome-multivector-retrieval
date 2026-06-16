@@ -205,6 +205,11 @@ An extensive and commented list of resources on late-interaction multivector ret
 	ICML, 2026<br>
 	📄 [paper](https://arxiv.org/abs/2605.30120)
 
+- *LEMUR: Learned Multi-Vector Retrieval*<br>
+	Elias Jääsaari, Ville Hyvönen, Teemu Roos<br>
+	ICML, 2026<br>
+	📄 [paper](https://arxiv.org/abs/2601.21853) | 🛠️ [code](https://github.com/ejaasaari/lemur)
+
 - *Efficient Multivector Retrieval with Token-Aware Clustering and Hierarchical Indexing*<br>
 	Silvio Martinico, Franco Maria Nardini, Cosimo Rulli, Rossano Venturini<br>
 	SIGIR, 2026<br>
