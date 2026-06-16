@@ -62,6 +62,11 @@ An extensive and commented list of resources on late-interaction multivector ret
 	arXiv, 2026<br>
 	📄 [paper](https://arxiv.org/abs/2605.24938) | 🛠️ [code](https://github.com/HanSolo9682/SMART)
 
+- *Party is over: regularizing ColBERT models to fix efficient ANN methods*<br>
+	LightOn AI<br>
+	Blog, 2026<br>
+	📝 [blog](https://huggingface.co/blog/lightonai/lateon-regularization)
+
 ### Compression & Token Pruning
 
 - *Introducing Neural Bag of Whole-Words with ColBERTer: Contextualized Late Interactions using Enhanced Reduction*<br>
@@ -301,6 +306,9 @@ An extensive and commented list of resources on late-interaction multivector ret
 
 - [lightonai/LateOn](https://huggingface.co/lightonai/LateOn)<br>
 	*State-of-the-art ColBERT model (149M, ModernBERT-based) achieving 57.22 NDCG@10 on BEIR with fully open training data and strong generalization under decontamination.*
+
+- [lightonai/LateOn-regularized](https://huggingface.co/lightonai/LateOn-regularized)<br>
+	*LateOn variant trained with STE-based regularization to fix compatibility with projection-based retrieval methods (MUVERA, SMVE).*
 
 - [ColBERT-Zero](https://huggingface.co/lightonai/ColBERT-Zero)<br>
 	*Large-scale fully pre-trained ColBERT checkpoint trained on public data and released with the ColBERT-Zero paper.*
