@@ -57,6 +57,11 @@ An extensive and commented list of resources on late-interaction multivector ret
 	arXiv, 2026<br>
 	📄 [paper](https://arxiv.org/abs/2602.16609)
 
+- *A Replicability Study of XTR*<br>
+	Rohan Jha, Reno Kriz, Benjamin Van Durme<br>
+	arXiv, 2026<br>
+	📄 [paper](https://arxiv.org/abs/2605.00646)
+
 - *Your Embedding Model is SMARTer Than You Think*<br>
 	Jianrui Zhang, Hyun Jung Lee, Sukanta Ganguly, Tae-Eui Kam, Donghyun Kim, Yong Jae Lee<br>
 	arXiv, 2026<br>
@@ -133,6 +138,11 @@ An extensive and commented list of resources on late-interaction multivector ret
 	Hanxiang Qin, Alexander Martin, Rohan Jha, Chunsheng Zuo, Reno Kriz, Benjamin Van Durme<br>
 	arXiv, 2026<br>
 	📄 [paper](https://arxiv.org/abs/2602.21202) | 🛠️ [code](https://github.com/hanxiangqin/omni-col-press)
+
+- *A Brief Comparison of Training-Free Multi-Vector Sequence Compression Methods*<br>
+	Rohan Jha, Chunsheng Zuo, Reno Kriz, Benjamin Van Durme<br>
+	ECIR (LIR Workshop), 2026<br>
+	📄 [paper](https://arxiv.org/abs/2603.22434)
 
 ### Multimodal & Vision
 
