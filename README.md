@@ -45,6 +45,11 @@ An extensive and commented list of resources on late-interaction multivector ret
 	NAACL, 2022<br>
 	📄 [paper](https://doi.org/10.18653/v1/2022.naacl-main.272) | 🛠️ [code](https://github.com/stanford-futuredata/ColBERT)
 
+- *Multi-Vector Embeddings are Provably More Expressive than Single Vector Embeddings*<br>
+	Rajesh Jayaram<br>
+	arXiv, 2026<br>
+	📄 [paper](https://arxiv.org/abs/2606.23475)
+
 ### General Models & Training
 
 - *PyLate: Flexible Training and Retrieval for Late Interaction Models*<br>
