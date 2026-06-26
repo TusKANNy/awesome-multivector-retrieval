@@ -247,6 +247,11 @@ An extensive and commented list of resources on late-interaction multivector ret
 	arXiv, 2026<br>
 	📄 [paper](https://arxiv.org/abs/2605.29517) | 🛠️ [code](https://github.com/roipony/flash-maxsim)
 
+- *TileMaxSim: IO-Aware GPU MaxSim Scoring with Dimension Tiling and Fused Product Quantization*<br>
+	Ashutosh Sharma<br>
+	arXiv, 2026<br>
+	📄 [paper](https://arxiv.org/abs/2606.26439) | 🛠️ [code](https://github.com/ashutoshuiuc/tilemaxsim)
+
 ## Software Libraries
 
 ### Training & Inference Frameworks
@@ -311,6 +316,9 @@ An extensive and commented list of resources on late-interaction multivector ret
 
 - [maxsim-cpu](https://github.com/mixedbread-ai/maxsim-cpu) <img src="images/rust-logo.png" height="22" alt="Rust"/> <img src="images/python-logo.svg" height="16" alt="Python"/><br>
 	*CPU-only MaxSim kernel written in Rust (libxsmm on x86, Apple Accelerate on ARM) with Python bindings.*
+
+- [TileMaxSim](https://github.com/ashutoshuiuc/tilemaxsim) <img src="images/python-logo.svg" height="16" alt="Python"/><br>
+	*IO-aware Triton kernel for MaxSim scoring with dimension tiling for embeddings wider than 128 dims and fused product quantization, achieving 80%+ peak HBM bandwidth.*
 
 ## Model Checkpoints
 
