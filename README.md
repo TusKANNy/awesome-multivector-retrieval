@@ -89,6 +89,11 @@ An extensive and commented list of resources on late-interaction multivector ret
 	NLPCC, 2022<br>
 	📄 [paper](https://doi.org/10.1007/978-3-031-17120-8_49)
 
+- *Multi-Vector Retrieval as Sparse Alignment*<br>
+	Yujie Qian, Jinhyuk Lee, Sai Meher Karthik Duddu, Zhuyun Dai, Siddhartha Brahma, Iftekhar Naim, Tao Lei, Vincent Y. Zhao<br>
+	arXiv, 2022<br>
+	📄 [paper](https://arxiv.org/abs/2211.01267)
+
 - *CITADEL: Conditional Token Interaction via Dynamic Lexical Routing for Efficient and Effective Multi-Vector Retrieval*<br>
 	Minghan Li, Sean C. Lin, Barlas Oguz, Arnab Ghoshal, Jimmy Lin, Yashar Mehdad, Wen-tau Yih, Xilun Chen<br>
 	ACL, 2023<br>
@@ -133,6 +138,11 @@ An extensive and commented list of resources on late-interaction multivector ret
 	Yuxuan Zong, Benjamin Piwowarski<br>
 	SIGIR, 2025<br>
 	📄 [paper](https://doi.org/10.1145/3726302.3730100)
+
+- *ColPruner: Combining Complementary Pruning Approaches for ColBERT in Web Search*<br>
+	Wondo Rhee, Chan Lim, Taewon Yoon, Gyuhyeon Choi, Jooyoung Lee<br>
+	SIGIR Workshop, 2025<br>
+	📄 [paper](https://www.researchgate.net/publication/397009313_ColPruner_Combining_Complementary_Pruning_Approaches_for_ColBERT_in_Web_Search)
 
 - *Sculpting the Vector Space: Towards Efficient Multi-Vector Visual Document Retrieval via Prune-then-Merge Framework*<br>
 	Yibo Yan, Mingdong Ou, Yi Cao, Xin Zou, Jiahao Huo, Shuliang Liu, James Kwok, Xuming Hu<br>
