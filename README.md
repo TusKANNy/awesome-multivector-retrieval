@@ -11,6 +11,7 @@ An extensive and commented list of resources on late-interaction multivector ret
 		- [General Models \& Training](#general-models--training)
 		- [Compression \& Token Pruning](#compression--token-pruning)
 		- [Multimodal \& Vision](#multimodal--vision)
+		- [Theory \& Analysis](#theory--analysis)
 	- [Retrieval](#retrieval)
 		- [Indexing \& Search Algorithms](#indexing--search-algorithms)
 		- [Scoring Kernels](#scoring-kernels)
@@ -44,11 +45,6 @@ An extensive and commented list of resources on late-interaction multivector ret
 	Keshav Santhanam, Omar Khattab, Jon Saad-Falcon, Christopher Potts, Matei Zaharia<br>
 	NAACL, 2022<br>
 	📄 [paper](https://doi.org/10.18653/v1/2022.naacl-main.272) | 🛠️ [code](https://github.com/stanford-futuredata/ColBERT)
-
-- *Multi-Vector Embeddings are Provably More Expressive than Single Vector Embeddings*<br>
-	Rajesh Jayaram<br>
-	arXiv, 2026<br>
-	📄 [paper](https://arxiv.org/abs/2606.23475)
 
 ### General Models & Training
 
@@ -159,6 +155,11 @@ An extensive and commented list of resources on late-interaction multivector ret
 	ECIR (LIR Workshop), 2026<br>
 	📄 [paper](https://arxiv.org/abs/2603.22434)
 
+- *Learn to Pool: Lightweight Fine-Tuning for Flexible Multi-Vector Compression*<br>
+	Stefan Josef<br>
+	ECIR (LIR Workshop), 2026<br>
+	📄 [paper](https://arxiv.org/abs/2607.06036)
+
 ### Multimodal & Vision
 
 - *ColPali: Efficient Document Retrieval with Vision Language Models*<br>
@@ -175,6 +176,18 @@ An extensive and commented list of resources on late-interaction multivector ret
 	Ahmed Masry, Megh Thakkar, Patrice Bechard, Sathwik Tejaswi Madhusudhan, Rabiul Awal, Shambhavi Mishra, Akshay Kalkunte Suresh, Srivatsava Daruru, Enamul Hoque, Spandana Gella, Torsten Scholak, Sai Rajeswar<br>
 	EMNLP, 2025<br>
 	📄 [paper](https://doi.org/10.18653/v1/2025.emnlp-industry.145)
+
+### Theory & Analysis
+
+- *Multi-Vector Embeddings are Provably More Expressive than Single Vector Embeddings*<br>
+	Rajesh Jayaram<br>
+	arXiv, 2026<br>
+	📄 [paper](https://arxiv.org/abs/2606.23475)
+
+- *Quantifying and Expanding the Theoretical Capacity of Late-Interaction Retrieval Models*<br>
+	Julian Killingback, Varad Ingale, Hamed Zamani, Cameron Musco<br>
+	arXiv, 2026<br>
+	📄 [paper](https://arxiv.org/abs/2607.05803)
 
 ## Retrieval
 
