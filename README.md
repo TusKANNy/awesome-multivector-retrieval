@@ -73,6 +73,11 @@ An extensive and commented list of resources on late-interaction multivector ret
 	Blog, 2026<br>
 	📝 [blog](https://huggingface.co/blog/lightonai/lateon-regularization)
 
+- *NumColBERT: Non-Intrusive Numeracy Injection for Late-Interaction Retrieval Models*<br>
+	Haruki Fujimaki, Makoto P. Kato<br>
+	arXiv, 2026<br>
+	📄 [paper](https://arxiv.org/abs/2605.10109)
+
 ### Compression & Token Pruning
 
 - *Introducing Neural Bag of Whole-Words with ColBERTer: Contextualized Late Interactions using Enhanced Reduction*<br>
@@ -147,7 +152,7 @@ An extensive and commented list of resources on late-interaction multivector ret
 
 - *Multi-Vector Index Compression in Any Modality*<br>
 	Hanxiang Qin, Alexander Martin, Rohan Jha, Chunsheng Zuo, Reno Kriz, Benjamin Van Durme<br>
-	arXiv, 2026<br>
+	SIGIR, 2026<br>
 	📄 [paper](https://arxiv.org/abs/2602.21202) | 🛠️ [code](https://github.com/hanxiangqin/omni-col-press)
 
 - *A Brief Comparison of Training-Free Multi-Vector Sequence Compression Methods*<br>
@@ -159,6 +164,16 @@ An extensive and commented list of resources on late-interaction multivector ret
 	Stefan Josef<br>
 	ECIR (LIR Workshop), 2026<br>
 	📄 [paper](https://arxiv.org/abs/2607.06036)
+
+- *A Voronoi Cell Formulation for Principled Token Pruning in Late-Interaction Retrieval Models*<br>
+	Yash Kankanampati, Yuxuan Zong, Nadi Tomeh, Benjamin Piwowarski, Joseph Le Roux<br>
+	SIGIR, 2026<br>
+	📄 [paper](https://arxiv.org/abs/2603.09933)
+
+- *Comparing Token Pruning Approaches for Multi-Vector Retrieval*<br>
+	Ferdinand Schlatt, Hanno Barschel, Matthias Hagen<br>
+	SIGIR, 2026<br>
+	📄 [paper](https://doi.org/10.1145/3805712.3808564)
 
 ### Multimodal & Vision
 
@@ -262,6 +277,11 @@ An extensive and commented list of resources on late-interaction multivector ret
 	Eugene Yang, Andrew Yates, Dawn Lawrie, James Mayfield, Saron Samuel, Rohan Jha<br>
 	SIGIR, 2026<br>
 	📄 [paper](https://arxiv.org/abs/2606.05568) | 🛠️ [code](https://github.com/hltcoe/ColBERTSaR)
+
+- *Reproduction Beyond Benchmarks: ConstBERT and ColBERT-v2 Across Backends and Query Distributions*<br>
+	Utshab Kumar Ghosh, Ashish David, Shubham Chatterjee<br>
+	SIGIR, 2026<br>
+	📄 [paper](https://arxiv.org/abs/2604.09982)
 
 ### Scoring Kernels
 
