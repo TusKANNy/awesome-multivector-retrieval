@@ -283,6 +283,11 @@ An extensive and commented list of resources on late-interaction multivector ret
 	SIGIR, 2026<br>
 	📄 [paper](https://arxiv.org/abs/2604.09982)
 
+- *PLAID-PRF: Pseudo-Relevance Feedback with Centroid-like Tokens in PLAID*<br>
+	Xiao Wang, Sean MacAvaney, Craig Macdonald<br>
+	SIGIR, 2026<br>
+	📄 [paper](https://doi.org/10.1145/3805712.3809690) | 🛠️ [code](https://github.com/cmacdonald/pyterrier_colbert2)
+
 ### Scoring Kernels
 
 - *FLASH-MAXSIM: IO-Aware Fused Kernels for Late-Interaction Scoring*<br>
