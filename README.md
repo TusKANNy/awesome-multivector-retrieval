@@ -78,6 +78,16 @@ An extensive and commented list of resources on late-interaction multivector ret
 	arXiv, 2026<br>
 	📄 [paper](https://arxiv.org/abs/2605.10109)
 
+- *mDenseOn with the mLateOn: Open Multilingual, Long-Context, and Code Retrieval Models*<br>
+	LightOn AI<br>
+	Blog, 2026<br>
+	📝 [blog](https://huggingface.co/blog/lightonai/mdenseon-mlateon)
+
+- *Jina-ColBERT-v2: A General-Purpose Multilingual Late Interaction Retriever*<br>
+	Rohan Jha, Bo Wang, Michael Günther, Georgios Mastrapas, Saba Sturua, Isabelle Mohr, Andreas Koukounas, Mohammad Kalim Akram, Nan Wang, Han Xiao<br>
+	MRL Workshop, 2024<br>
+	📄 [paper](https://doi.org/10.18653/v1/2024.mrl-1.11)
+
 ### Compression & Token Pruning
 
 - *Introducing Neural Bag of Whole-Words with ColBERTer: Contextualized Late Interactions using Enhanced Reduction*<br>
@@ -377,6 +387,12 @@ An extensive and commented list of resources on late-interaction multivector ret
 
 - [lightonai/LateOn](https://huggingface.co/lightonai/LateOn)<br>
 	*State-of-the-art ColBERT model (149M, ModernBERT-based) achieving 57.22 NDCG@10 on BEIR with fully open training data and strong generalization under decontamination.*
+
+- [lightonai/mLateOn](https://huggingface.co/lightonai/mLateOn)<br>
+	*Multilingual ColBERT model (307M, mmBERT-based) covering 9 languages with SOTA multilingual, long-document, and code retrieval; strong zero-shot generalization to unseen languages (57.56 NDCG@10 on BEIR).*
+
+- [jinaai/jina-colbert-v2](https://huggingface.co/jinaai/jina-colbert-v2)<br>
+	*Multilingual late-interaction retriever (0.6B, JinaBERT-based) supporting 89 languages with Matryoshka token embeddings (128/96/64 dims) for flexible efficiency-precision tradeoffs.*
 
 - [lightonai/LateOn-regularized](https://huggingface.co/lightonai/LateOn-regularized)<br>
 	*LateOn variant trained with STE-based regularization to fix compatibility with projection-based retrieval methods (MUVERA, SMVE).*
