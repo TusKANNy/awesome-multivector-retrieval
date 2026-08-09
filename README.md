@@ -88,6 +88,11 @@ An extensive and commented list of resources on late-interaction multivector ret
 	MRL Workshop, 2024<br>
 	📄 [paper](https://doi.org/10.18653/v1/2024.mrl-1.11)
 
+- *GLInt: Geometry-Matched Hard Negatives for Late-Interaction Retrieval*<br>
+	Aarush Sinha<br>
+	Blog, 2026<br>
+	📝 [blog](https://huggingface.co/blog/chungimungi/glint)
+
 ### Compression & Token Pruning
 
 - *Introducing Neural Bag of Whole-Words with ColBERTer: Contextualized Late Interactions using Enhanced Reduction*<br>
@@ -393,6 +398,9 @@ An extensive and commented list of resources on late-interaction multivector ret
 
 - [jinaai/jina-colbert-v2](https://huggingface.co/jinaai/jina-colbert-v2)<br>
 	*Multilingual late-interaction retriever (0.6B, JinaBERT-based) supporting 89 languages with Matryoshka token embeddings (128/96/64 dims) for flexible efficiency-precision tradeoffs.*
+
+- [chungimungi/GLInt](https://huggingface.co/chungimungi/GLInt)<br>
+	*English ColBERT model (149M, LateOn-based) trained with geometry-matched hard negatives mined via MaxSim geometry, reporting 57.43 NDCG@10 on BEIR.*
 
 - [lightonai/LateOn-regularized](https://huggingface.co/lightonai/LateOn-regularized)<br>
 	*LateOn variant trained with STE-based regularization to fix compatibility with projection-based retrieval methods (MUVERA, SMVE).*
