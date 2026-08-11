@@ -165,6 +165,11 @@ An extensive and commented list of resources on late-interaction multivector ret
 	arXiv, 2026<br>
 	📄 [paper](https://arxiv.org/abs/2602.19549)
 
+- *Coverage Matters: MarginMerge for Compressing Multi-Vector Visual Document Retrievers*<br>
+	Ailar Mahdizadeh, Aria Salari, Sohail Rajabi, Shahriar Mirabbasi, Panos Nasiopoulos, Alireza Morsali<br>
+	arXiv, 2026<br>
+	📄 [paper](https://arxiv.org/abs/2608.02969)
+
 - *Multi-Vector Index Compression in Any Modality*<br>
 	Hanxiang Qin, Alexander Martin, Rohan Jha, Chunsheng Zuo, Reno Kriz, Benjamin Van Durme<br>
 	SIGIR, 2026<br>
