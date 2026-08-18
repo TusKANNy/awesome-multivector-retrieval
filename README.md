@@ -93,6 +93,11 @@ An extensive and commented list of resources on late-interaction multivector ret
 	Blog, 2026<br>
 	📝 [blog](https://huggingface.co/blog/chungimungi/glint)
 
+- *Multi-Vector (Late Interaction) Embedding Models with Sentence Transformers*<br>
+	Tom Aarsen, Antoine Chaffin, Raphaël Sourty<br>
+	Blog, 2026<br>
+	📝 [blog](https://huggingface.co/blog/multi-vector-encoder)
+
 ### Compression & Token Pruning
 
 - *Introducing Neural Bag of Whole-Words with ColBERTer: Contextualized Late Interactions using Enhanced Reduction*<br>
@@ -332,6 +337,9 @@ An extensive and commented list of resources on late-interaction multivector ret
 
 - [PyLate](https://github.com/lightonai/pylate) <img src="images/python-logo.svg" height="16" alt="Python"/><br>
 	*Python library for training, fine-tuning, inference, and retrieval with ColBERT-style late-interaction models on single and multi-GPU setups.*
+
+- [Sentence Transformers](https://github.com/huggingface/sentence-transformers) <img src="images/python-logo.svg" height="16" alt="Python"/><br>
+	*Framework for dense, sparse, reranker, and (v6.0+) ColBERT-style multi-vector late-interaction models via the MultiVectorEncoder, with a unified training and inference API.*
 
 - [PyLate-rs](https://github.com/lightonai/pylate-rs) <img src="images/rust-logo.png" height="22" alt="Rust"/> <img src="images/python-logo.svg" height="16" alt="Python"/><br>
 	*High-performance Rust inference engine for PyLate models, with Python bindings and optimized integration with FastPlaid for retrieval pipelines.*
