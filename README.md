@@ -200,6 +200,11 @@ An extensive and commented list of resources on late-interaction multivector ret
 	SIGIR, 2026<br>
 	📄 [paper](https://doi.org/10.1145/3805712.3808564)
 
+- *CrossQ: Task-Aligned Cross-Token Conditional Quantization for Late Interaction Retrieval*<br>
+	Rohit Kumar Salla, Manoj Saravanan, Ramya Manasa Amancherla<br>
+	ICML, 2026<br>
+	📄 [paper](https://arxiv.org/abs/2608.19204)
+
 ### Multimodal & Vision
 
 - *ColPali: Efficient Document Retrieval with Vision Language Models*<br>
@@ -228,6 +233,11 @@ An extensive and commented list of resources on late-interaction multivector ret
 	Julian Killingback, Varad Ingale, Hamed Zamani, Cameron Musco<br>
 	arXiv, 2026<br>
 	📄 [paper](https://arxiv.org/abs/2607.05803)
+
+- *Retrieval Needs Multivectors: An Exponential Separation*<br>
+	Mihir Agarwal, Viraj Agrawal, Sabyasachi Basu, Ankit Garg, Kirankumar Shiragur<br>
+	arXiv, 2026<br>
+	📄 [paper](https://arxiv.org/abs/2608.21494)
 
 ## Retrieval
 
