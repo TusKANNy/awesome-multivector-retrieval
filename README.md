@@ -98,6 +98,11 @@ An extensive and commented list of resources on late-interaction multivector ret
 	Blog, 2026<br>
 	📝 [blog](https://huggingface.co/blog/multi-vector-encoder)
 
+- *Training and Finetuning Multi-Vector Embedding Models with Sentence Transformers*<br>
+	Tom Aarsen<br>
+	Blog, 2026<br>
+	📝 [blog](https://huggingface.co/blog/train-multi-vector-encoder)
+
 ### Compression & Token Pruning
 
 - *Introducing Neural Bag of Whole-Words with ColBERTer: Contextualized Late Interactions using Enhanced Reduction*<br>
