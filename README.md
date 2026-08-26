@@ -323,6 +323,11 @@ An extensive and commented list of resources on late-interaction multivector ret
 	SIGIR, 2026<br>
 	📄 [paper](https://arxiv.org/abs/2607.18626) | 🛠️ [code](https://github.com/cmacdonald/pyterrier_colbert2)
 
+- *Chimera: Efficient Multi-Vector Retrieval via GPU-CPU Co-Processing*<br>
+	Yanqi Chen, Juelin Liu, Alexandra Meliou, Xiao Yan<br>
+	arXiv, 2026<br>
+	📄 [paper](https://arxiv.org/abs/2608.23553)
+
 ### Scoring Kernels
 
 - *FLASH-MAXSIM: IO-Aware Fused Kernels for Late-Interaction Scoring*<br>
