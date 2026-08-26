@@ -23,8 +23,8 @@ An extensive and commented list of resources on late-interaction multivector ret
 		- [General-Purpose](#general-purpose)
 		- [Specialized / Domain](#specialized--domain)
 	- [Datasets and Encodings](#datasets-and-encodings)
-	  - [`MS MARCO v1`](#ms-marco-v1)
-	  - [`LoTTE-pooled`](#lotte-pooled)
+		- [`MS MARCO v1`](#ms-marco-v1)
+		- [`LoTTE-pooled`](#lotte-pooled)
 	- [Multimedia Resources](#multimedia-resources)
 
 ## Models
@@ -34,7 +34,7 @@ An extensive and commented list of resources on late-interaction multivector ret
 - *ColBERT: Efficient and Effective Passage Search via Contextualized Late Interaction over BERT*<br>
 	Omar Khattab, Matei Zaharia<br>
 	SIGIR, 2020<br>
-	📄 [paper](https://doi.org/10.1145/3397271.3401075) | 🛠️ [code](https://github.com/stanford-futuredata/ColBERT)
+	📄 [paper](https://arxiv.org/abs/2004.12832) | 🛠️ [code](https://github.com/stanford-futuredata/ColBERT)
 
 - *COIL: Revisit Exact Lexical Match in Information Retrieval with Contextualized Inverted List*<br>
 	Luyu Gao, Zhuyun Dai, Jamie Callan<br>
@@ -48,10 +48,15 @@ An extensive and commented list of resources on late-interaction multivector ret
 
 ### General Models & Training
 
+- *Jina-ColBERT-v2: A General-Purpose Multilingual Late Interaction Retriever*<br>
+	Rohan Jha, Bo Wang, Michael Günther, Georgios Mastrapas, Saba Sturua, Isabelle Mohr, Andreas Koukounas, Mohammad Kalim Akram, Nan Wang, Han Xiao<br>
+	MRL Workshop, 2024<br>
+	📄 [paper](https://doi.org/10.18653/v1/2024.mrl-1.11)
+
 - *PyLate: Flexible Training and Retrieval for Late Interaction Models*<br>
 	Antoine Chaffin, Raphaël Sourty<br>
 	CIKM, 2025<br>
-	📄 [paper](https://doi.org/10.1145/3746252.3761608) | 🛠️ [code](https://github.com/lightonai/pylate)
+	📄 [paper](https://arxiv.org/abs/2508.03555) | 🛠️ [code](https://github.com/lightonai/pylate)
 
 - *ColBERT-Zero: To Pre-train Or Not To Pre-train ColBERT models*<br>
 	Antoine Chaffin, Luca Arnaboldi, Amélie Chatelain, Florent Krzakala<br>
@@ -83,11 +88,6 @@ An extensive and commented list of resources on late-interaction multivector ret
 	Blog, 2026<br>
 	📝 [blog](https://huggingface.co/blog/lightonai/mdenseon-mlateon)
 
-- *Jina-ColBERT-v2: A General-Purpose Multilingual Late Interaction Retriever*<br>
-	Rohan Jha, Bo Wang, Michael Günther, Georgios Mastrapas, Saba Sturua, Isabelle Mohr, Andreas Koukounas, Mohammad Kalim Akram, Nan Wang, Han Xiao<br>
-	MRL Workshop, 2024<br>
-	📄 [paper](https://doi.org/10.18653/v1/2024.mrl-1.11)
-
 - *GLInt: Geometry-Matched Hard Negatives for Late-Interaction Retrieval*<br>
 	Aarush Sinha<br>
 	Blog, 2026<br>
@@ -103,7 +103,7 @@ An extensive and commented list of resources on late-interaction multivector ret
 - *Introducing Neural Bag of Whole-Words with ColBERTer: Contextualized Late Interactions using Enhanced Reduction*<br>
 	Sebastian Hofstatter, Omar Khattab, Sophia Althammer, Mete Sertkan, Allan Hanbury<br>
 	CIKM, 2022<br>
-	📄 [paper](https://doi.org/10.1145/3511808.3557367) | 🛠️ [code](https://github.com/sebastian-hofstaetter/colberter)
+	📄 [paper](https://arxiv.org/abs/2203.13088) | 🛠️ [code](https://github.com/sebastian-hofstaetter/colberter)
 
 - *Joint Optimization of Multi-Vector Representation with Product Quantization*<br>
 	Yufan Fang, Jing Zhan, Yiqun Liu, Jiafeng Mao, Min Zhang, Shaoping Ma<br>
@@ -123,17 +123,17 @@ An extensive and commented list of resources on late-interaction multivector ret
 - *SLIM: Sparsified Late Interaction for Multi-Vector Retrieval with Inverted Indexes*<br>
 	Minghan Li, Sheng-Chieh Lin, Xueguang Ma, Jimmy Lin<br>
 	SIGIR, 2023<br>
-	📄 [paper](https://doi.org/10.1145/3539618.3591977)
+	📄 [paper](https://arxiv.org/abs/2302.06587)
 
 - *Rethinking the Role of Token Retrieval in Multi-Vector Retrieval*<br>
 	Jinhyuk Lee, Zhuyun Dai, Sai Meher Karthik Duddu, Tao Lei, Iftekhar Naim, Ming-Wei Chang, Vincent Y. Zhao<br>
 	NeurIPS, 2023<br>
-	📄 [paper](https://dl.acm.org/doi/10.5555/3666122.3666799)
+	📄 [paper](https://arxiv.org/abs/2304.01982)
 
 - *SPLATE: Sparse Late Interaction Retrieval*<br>
 	Thibault Formal, Stephane Clinchant, Herve Dejean, Carlos Lassance<br>
 	SIGIR, 2024<br>
-	📄 [paper](https://doi.org/10.1145/3626772.3657968)
+	📄 [paper](https://arxiv.org/abs/2404.13950)
 
 - *Muvera: Multi-Vector Retrieval via Fixed Dimensional Encodings*<br>
 	Laxman Dhulipala, Majid Hadian, Rajesh Jayaram, Jason Lee, Vahab Mirrokni<br>
@@ -148,7 +148,7 @@ An extensive and commented list of resources on late-interaction multivector ret
 - *Token Pruning Optimization for Efficient Multi-vector Dense Retrieval*<br>
 	Shanxiu He, Mutasem Al-Darabsah, Suraj Nair, Jonathan May, Tarun Agarwal, Tao Yang, Choon Hui Teo<br>
 	ECIR, 2025<br>
-	📄 [paper](https://doi.org/10.1007/978-3-031-88708-6_7)
+	📄 [paper](https://sites.cs.ucsb.edu/~tyang/papers/ECIR2025-LeapMV.pdf)
 
 - *CRISP: Clustering Multi-Vector Representations for Denoising and Pruning*<br>
 	João Veneroso, Rajesh Jayaram, Jinmeng Rao, Gustavo Hernández Ábrego, Majid Hadian, Daniel Cer<br>
@@ -158,11 +158,11 @@ An extensive and commented list of resources on late-interaction multivector ret
 - *Towards Lossless Token Pruning in Late-Interaction Retrieval Models*<br>
 	Yuxuan Zong, Benjamin Piwowarski<br>
 	SIGIR, 2025<br>
-	📄 [paper](https://doi.org/10.1145/3726302.3730100)
+	📄 [paper](https://arxiv.org/abs/2504.12778)
 
 - *ColPruner: Combining Complementary Pruning Approaches for ColBERT in Web Search*<br>
 	Wondo Rhee, Chan Lim, Taewon Yoon, Gyuhyeon Choi, Jooyoung Lee<br>
-	SIGIR Workshop, 2025<br>
+	ReNeuIR Workshop, 2025<br>
 	📄 [paper](https://www.researchgate.net/publication/397009313_ColPruner_Combining_Complementary_Pruning_Approaches_for_ColBERT_in_Web_Search)
 
 - *Sculpting the Vector Space: Towards Efficient Multi-Vector Visual Document Retrieval via Prune-then-Merge Framework*<br>
@@ -182,12 +182,12 @@ An extensive and commented list of resources on late-interaction multivector ret
 
 - *A Brief Comparison of Training-Free Multi-Vector Sequence Compression Methods*<br>
 	Rohan Jha, Chunsheng Zuo, Reno Kriz, Benjamin Van Durme<br>
-	ECIR (LIR Workshop), 2026<br>
+	LIR Workshop, 2026<br>
 	📄 [paper](https://arxiv.org/abs/2603.22434)
 
 - *Learn to Pool: Lightweight Fine-Tuning for Flexible Multi-Vector Compression*<br>
 	Stefan Josef<br>
-	ECIR (LIR Workshop), 2026<br>
+	LIR Workshop, 2026<br>
 	📄 [paper](https://arxiv.org/abs/2607.06036)
 
 - *A Voronoi Cell Formulation for Principled Token Pruning in Late-Interaction Retrieval Models*<br>
@@ -241,27 +241,27 @@ An extensive and commented list of resources on late-interaction multivector ret
 - *PLAID: An Efficient Engine for Late Interaction Retrieval*<br>
 	Keshav Santhanam, Omar Khattab, Christopher Potts, Matei Zaharia<br>
 	CIKM, 2022<br>
-	📄 [paper](https://doi.org/10.1145/3511808.3557325) | 🛠️ [code](https://github.com/stanford-futuredata/ColBERT)
+	📄 [paper](https://arxiv.org/abs/2205.09707) | 🛠️ [code](https://github.com/stanford-futuredata/ColBERT)
 
 - *DESSERT: An Efficient Algorithm for Vector Set Search with Vector Set Queries*<br>
 	Joshua Engels, Benjamin Coleman, Vihan Lakshman, Anshumali Shrivastava<br>
 	NeurIPS, 2023<br>
-	📄 [paper](https://dl.acm.org/doi/10.5555/3666122.3669096)
+	📄 [paper](https://arxiv.org/abs/2210.15748)
 
 - *Efficient Multi-Vector Dense Retrieval with Bit Vectors*<br>
 	Franco Maria Nardini, Cosimo Rulli, Rossano Venturini<br>
 	ECIR, 2024<br>
-	📄 [paper](https://doi.org/10.1007/978-3-031-56060-6_1) | 🛠️ [code](https://github.com/CosimoRulli/emvb)
+	📄 [paper](https://arxiv.org/abs/2404.02805) | 🛠️ [code](https://github.com/CosimoRulli/emvb)
 
 - *A Reproducibility Study of PLAID*<br>
 	Sean MacAvaney, Nicola Tonellotto<br>
 	SIGIR, 2024<br>
-	📄 [paper](https://doi.org/10.1145/3626772.3657856)
+	📄 [paper](https://arxiv.org/abs/2404.14989)
 
 - *Efficient Constant-Space Multi-vector Retrieval*<br>
 	Sean MacAvaney, Antonio Mallia, Nicola Tonellotto<br>
 	ECIR, 2025<br>
-	📄 [paper](https://doi.org/10.1007/978-3-031-88714-7_22)
+	📄 [paper](https://arxiv.org/abs/2504.01818)
 
 - *IGP: Efficient Multi-Vector Retrieval via Proximity Graph Index*<br>
 	Ziyang Bian, Man Lung Yiu, Buzhou Tang<br>
@@ -269,19 +269,19 @@ An extensive and commented list of resources on late-interaction multivector ret
 	📄 [paper](https://doi.org/10.1145/3726302.3730004) | 🛠️ [code](https://github.com/DBGroup-SUSTech/multi-vector-retrieval)
 
 - *WARP: An Efficient Engine for Multi-Vector Retrieval*<br>
-	Joel L. Scheerer, Matei Zaharia, Christopher Potts, Gustavo Alonso, Omar Khattab<br>
+	Jan Luca Scheerer, Matei Zaharia, Christopher Potts, Gustavo Alonso, Omar Khattab<br>
 	SIGIR, 2025<br>
-	📄 [paper](https://doi.org/10.1145/3726302.3729904) | 🛠️ [code](https://github.com/jlscheerer/xtr-warp)
+	📄 [paper](https://arxiv.org/abs/2501.17788) | 🛠️ [code](https://github.com/jlscheerer/xtr-warp)
 
 - *Multivector Reranking in the Era of Strong First-Stage Retrievers*<br>
 	Silvio Martinico, Franco Maria Nardini, Cosimo Rulli, Rossano Venturini<br>
 	ECIR, 2026<br>
-	📄 [paper](https://doi.org/10.1007/978-3-032-21324-2_4) | 🛠️ [code](https://github.com/TusKANNy/papers_reproducibility/tree/main/ecir2026) | 🛠️ [code](https://github.com/TusKANNy/kannolo)
+	📄 [paper](https://arxiv.org/abs/2601.05200) | 🛠️ [code](https://github.com/TusKANNy/papers_reproducibility/tree/main/ecir2026) | 🛠️ [code](https://github.com/TusKANNy/kannolo)
 
 - *SMVE: Sparse Multi-Vector Retrieval*<br>
 	Martin Spisak, Marek Galovic<br>
-	ECIR, 2026<br>
-	📄 [blog](https://www.topk.io/blog/20260311-smve-multi-vector-retrieval)
+	LIR Workshop, 2026<br>
+	📝 [blog](https://www.topk.io/blog/20260311-smve-multi-vector-retrieval)
 
 - *No More K-means: Single-Stage Sparse Coding for Efficient Multi-Vector Retrieval*<br>
 	Lixuan Guo, Yifei Wang, Tiansheng Wen, Aosong Feng, Stefanie Jegelka, Chenyu You<br>
@@ -311,7 +311,7 @@ An extensive and commented list of resources on late-interaction multivector ret
 - *PLAID-PRF: Pseudo-Relevance Feedback with Centroid-like Tokens in PLAID*<br>
 	Xiao Wang, Sean MacAvaney, Craig Macdonald<br>
 	SIGIR, 2026<br>
-	📄 [paper](https://doi.org/10.1145/3805712.3809690) | 🛠️ [code](https://github.com/cmacdonald/pyterrier_colbert2)
+	📄 [paper](https://arxiv.org/abs/2607.18626) | 🛠️ [code](https://github.com/cmacdonald/pyterrier_colbert2)
 
 ### Scoring Kernels
 
@@ -418,16 +418,16 @@ An extensive and commented list of resources on late-interaction multivector ret
 - [lightonai/LateOn-regularized](https://huggingface.co/lightonai/LateOn-regularized)<br>
 	*LateOn variant trained with STE-based regularization to fix compatibility with projection-based retrieval methods (MUVERA, SMVE).*
 
-- [ColBERT-Zero](https://huggingface.co/lightonai/ColBERT-Zero)<br>
+- [lightonai/ColBERT-Zero](https://huggingface.co/lightonai/ColBERT-Zero)<br>
 	*Large-scale fully pre-trained ColBERT checkpoint trained on public data and released with the ColBERT-Zero paper.*
 
-- [GTE-ModernColBERT-v1](https://huggingface.co/lightonai/GTE-ModernColBERT-v1)<br>
+- [lightonai/GTE-ModernColBERT-v1](https://huggingface.co/lightonai/GTE-ModernColBERT-v1)<br>
 	*PyLate late-interaction checkpoint based on ModernBERT with 128-dimensional token embeddings and strong long-context retrieval behavior.*
 
-- [Iso-ModernColBERT](https://huggingface.co/topk-io/Iso-ModernColBERT)<br>
+- [topk-io/Iso-ModernColBERT](https://huggingface.co/topk-io/Iso-ModernColBERT)<br>
 	*Isotropically corrected version of GTE-ModernColBERT-v1 built for efficient inference and scalable retrieval.*
 
-- [colberter-128-32-msmarco](https://huggingface.co/sebastian-hofstaetter/colberter-128-32-msmarco) / [uni-colberter-128-1-msmarco](https://huggingface.co/sebastian-hofstaetter/uni-colberter-128-1-msmarco)<br>
+- [sebastian-hofstaetter/colberter-128-32-msmarco](https://huggingface.co/sebastian-hofstaetter/colberter-128-32-msmarco) / [sebastian-hofstaetter/uni-colberter-128-1-msmarco](https://huggingface.co/sebastian-hofstaetter/uni-colberter-128-1-msmarco)<br>
 	*ColBERTer checkpoints trained on MS MARCO (128-dim, with 32 and 1 unique whole-word vectors per document respectively).*
 
 ### Specialized / Domain
@@ -438,7 +438,7 @@ An extensive and commented list of resources on late-interaction multivector ret
 - [lightonai/LateOn-Code-edge](https://huggingface.co/lightonai/LateOn-Code-edge)<br>
 	*Lightweight code retrieval model (17M parameters) for edge devices, matching larger models while running efficiently on CPU.*
 
-- [Reason-ModernColBERT](https://huggingface.co/lightonai/Reason-ModernColBERT)<br>
+- [lightonai/Reason-ModernColBERT](https://huggingface.co/lightonai/Reason-ModernColBERT)<br>
 	*Reasoning-focused late-interaction checkpoint fine-tuned on reasonir-hq, with strong BRIGHT benchmark performance for reasoning-intensive retrieval.*
 
 ## Datasets and Encodings
