@@ -103,6 +103,11 @@ An extensive and commented list of resources on late-interaction multivector ret
 	Blog, 2026<br>
 	📝 [blog](https://huggingface.co/blog/train-multi-vector-encoder)
 
+- *Exploring Static Embedding Retrieval*<br>
+	Logan Markewich<br>
+	Blog, 2026<br>
+	📝 [blog](https://www.llamaindex.ai/blog/exploring-static-embedding-retrieval)
+
 ### Compression & Token Pruning
 
 - *Introducing Neural Bag of Whole-Words with ColBERTer: Contextualized Late Interactions using Enhanced Reduction*<br>
@@ -227,6 +232,16 @@ An extensive and commented list of resources on late-interaction multivector ret
 	EMNLP, 2025<br>
 	📄 [paper](https://doi.org/10.18653/v1/2025.emnlp-industry.145)
 
+- *MetaEmbed: Scaling Multimodal Retrieval at Test-Time with Flexible Late Interaction*<br>
+	Zilin Xiao, Qi Ma, Mengting Gu, Chun-cheng Jason Chen, Xintao Chen, Vicente Ordonez, Vijai Mohan<br>
+	ICLR, 2026<br>
+	📄 [paper](https://arxiv.org/abs/2509.18095) | 🛠️ [code](https://github.com/facebookresearch/MetaEmbed)
+
+- *AdaptiveEmbed: Sample-Adaptive Multi-Vector Representation for Multimodal Retrieval*<br>
+	Xinze Liu, Lei Yang, Dayan Wu, Hengjie Zhu, Zihao Zhang, Hanqi Wu, Tianzhu Hu, Peng Fu, Zheng Lin, Weiping Wang<br>
+	arXiv, 2026<br>
+	📄 [paper](https://arxiv.org/abs/2608.25412)
+
 ### Theory & Analysis
 
 - *Multi-Vector Embeddings are Provably More Expressive than Single Vector Embeddings*<br>
@@ -334,6 +349,11 @@ An extensive and commented list of resources on late-interaction multivector ret
 	📄 [paper](https://arxiv.org/abs/2608.23553)
 
 ### Scoring Kernels
+
+- *Col-Bandit: Query-Time Top-K Estimation for Late-Interaction Retrieval*<br>
+	Roi Pony, Adi Raz Goldfarb, Oshri Naparstek, Idan Friedman, Udi Barzelay, Eli Schwartz<br>
+	arXiv, 2026<br>
+	📄 [paper](https://arxiv.org/abs/2602.02827)
 
 - *FLASH-MAXSIM: IO-Aware Fused Kernels for Late-Interaction Scoring*<br>
 	Roi Pony, Adi Raz Goldfarb, Idan Friedman, Daniel Ezer, Udi Barzelay<br>
