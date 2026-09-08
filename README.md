@@ -11,10 +11,11 @@ An extensive and commented list of resources on late-interaction multivector ret
 		- [General Models \& Training](#general-models--training)
 		- [Compression \& Token Pruning](#compression--token-pruning)
 		- [Multimodal \& Vision](#multimodal--vision)
-		- [Theory \& Analysis](#theory--analysis)
+		- [Theory](#theory)
 	- [Retrieval](#retrieval)
 		- [Indexing \& Search Algorithms](#indexing--search-algorithms)
 		- [Scoring Kernels](#scoring-kernels)
+	- [Surveys, Analyses \& Reproducibility](#surveys-analyses--reproducibility)
 	- [Software Libraries](#software-libraries)
 		- [Training \& Inference Frameworks](#training--inference-frameworks)
 		- [Retrieval Engines \& Indexes](#retrieval-engines--indexes)
@@ -62,11 +63,6 @@ An extensive and commented list of resources on late-interaction multivector ret
 	Antoine Chaffin, Luca Arnaboldi, Amélie Chatelain, Florent Krzakala<br>
 	arXiv, 2026<br>
 	📄 [paper](https://arxiv.org/abs/2602.16609)
-
-- *A Replicability Study of XTR*<br>
-	Rohan Jha, Reno Kriz, Benjamin Van Durme<br>
-	arXiv, 2026<br>
-	📄 [paper](https://arxiv.org/abs/2605.00646)
 
 - *Your Embedding Model is SMARTer Than You Think*<br>
 	Jianrui Zhang, Hyun Jung Lee, Sukanta Ganguly, Tae-Eui Kam, Donghyun Kim, Yong Jae Lee<br>
@@ -195,11 +191,6 @@ An extensive and commented list of resources on late-interaction multivector ret
 	SIGIR, 2026<br>
 	📄 [paper](https://arxiv.org/abs/2602.21202) | 🛠️ [code](https://github.com/hanxiangqin/omni-col-press)
 
-- *A Brief Comparison of Training-Free Multi-Vector Sequence Compression Methods*<br>
-	Rohan Jha, Chunsheng Zuo, Reno Kriz, Benjamin Van Durme<br>
-	LIR Workshop, 2026<br>
-	📄 [paper](https://arxiv.org/abs/2603.22434)
-
 - *Learn to Pool: Lightweight Fine-Tuning for Flexible Multi-Vector Compression*<br>
 	Stefan Josef<br>
 	LIR Workshop, 2026<br>
@@ -209,11 +200,6 @@ An extensive and commented list of resources on late-interaction multivector ret
 	Yash Kankanampati, Yuxuan Zong, Nadi Tomeh, Benjamin Piwowarski, Joseph Le Roux<br>
 	SIGIR, 2026<br>
 	📄 [paper](https://arxiv.org/abs/2603.09933)
-
-- *Comparing Token Pruning Approaches for Multi-Vector Retrieval*<br>
-	Ferdinand Schlatt, Hanno Barschel, Matthias Hagen<br>
-	SIGIR, 2026<br>
-	📄 [paper](https://doi.org/10.1145/3805712.3808564)
 
 - *CrossQ: Task-Aligned Cross-Token Conditional Quantization for Late Interaction Retrieval*<br>
 	Rohit Kumar Salla, Manoj Saravanan, Ramya Manasa Amancherla<br>
@@ -247,7 +233,7 @@ An extensive and commented list of resources on late-interaction multivector ret
 	arXiv, 2026<br>
 	📄 [paper](https://arxiv.org/abs/2608.25412)
 
-### Theory & Analysis
+### Theory
 
 - *Multi-Vector Embeddings are Provably More Expressive than Single Vector Embeddings*<br>
 	Rajesh Jayaram<br>
@@ -287,11 +273,6 @@ An extensive and commented list of resources on late-interaction multivector ret
 	Franco Maria Nardini, Cosimo Rulli, Rossano Venturini<br>
 	ECIR, 2024<br>
 	📄 [paper](https://arxiv.org/abs/2404.02805) | 🛠️ [code](https://github.com/CosimoRulli/emvb)
-
-- *A Reproducibility Study of PLAID*<br>
-	Sean MacAvaney, Nicola Tonellotto<br>
-	SIGIR, 2024<br>
-	📄 [paper](https://arxiv.org/abs/2404.14989)
 
 - *Efficient Constant-Space Multi-vector Retrieval*<br>
 	Sean MacAvaney, Antonio Mallia, Nicola Tonellotto<br>
@@ -338,11 +319,6 @@ An extensive and commented list of resources on late-interaction multivector ret
 	SIGIR, 2026<br>
 	📄 [paper](https://arxiv.org/abs/2606.05568) | 🛠️ [code](https://github.com/hltcoe/ColBERTSaR)
 
-- *Reproduction Beyond Benchmarks: ConstBERT and ColBERT-v2 Across Backends and Query Distributions*<br>
-	Utshab Kumar Ghosh, Ashish David, Shubham Chatterjee<br>
-	SIGIR, 2026<br>
-	📄 [paper](https://arxiv.org/abs/2604.09982)
-
 - *PLAID-PRF: Pseudo-Relevance Feedback with Centroid-like Tokens in PLAID*<br>
 	Xiao Wang, Sean MacAvaney, Craig Macdonald<br>
 	SIGIR, 2026<br>
@@ -369,6 +345,38 @@ An extensive and commented list of resources on late-interaction multivector ret
 	Ashutosh Sharma<br>
 	arXiv, 2026<br>
 	📄 [paper](https://arxiv.org/abs/2606.26439) | 🛠️ [code](https://github.com/ashutoshuiuc/tilemaxsim)
+
+## Surveys, Analyses & Reproducibility
+
+- *A Reproducibility Study of PLAID*<br>
+	Sean MacAvaney, Nicola Tonellotto<br>
+	SIGIR, 2024<br>
+	📄 [paper](https://arxiv.org/abs/2404.14989)
+
+- *A Replicability Study of XTR*<br>
+	Rohan Jha, Reno Kriz, Benjamin Van Durme<br>
+	arXiv, 2026<br>
+	📄 [paper](https://arxiv.org/abs/2605.00646)
+
+- *Reproduction Beyond Benchmarks: ConstBERT and ColBERT-v2 Across Backends and Query Distributions*<br>
+	Utshab Kumar Ghosh, Ashish David, Shubham Chatterjee<br>
+	SIGIR, 2026<br>
+	📄 [paper](https://arxiv.org/abs/2604.09982)
+
+- *Comparing Token Pruning Approaches for Multi-Vector Retrieval*<br>
+	Ferdinand Schlatt, Hanno Barschel, Matthias Hagen<br>
+	SIGIR, 2026<br>
+	📄 [paper](https://doi.org/10.1145/3805712.3808564)
+
+- *A Brief Comparison of Training-Free Multi-Vector Sequence Compression Methods*<br>
+	Rohan Jha, Chunsheng Zuo, Reno Kriz, Benjamin Van Durme<br>
+	LIR Workshop, 2026<br>
+	📄 [paper](https://arxiv.org/abs/2603.22434)
+
+- *A Survey of Late-Interaction Neural Retrieval: Paradigms, Systems, and Research Frontiers*<br>
+	Xiao Wang, Chuting Yu, Minghan Li, Binci Yang, Hang Li, Ben He<br>
+	SSRN, 2026<br>
+	📄 [paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7412000)
 
 ## Software Libraries
 
