@@ -108,6 +108,11 @@ An extensive and commented list of resources on late-interaction multivector ret
 	Blog, 2026<br>
 	📝 [blog](https://www.llamaindex.ai/blog/exploring-static-embedding-retrieval)
 
+- *KURE-v2: A Korean-English Bilingual Late-Interaction Retrieval Model*<br>
+	Youngjoon Jang<br>
+	Blog, 2026<br>
+	📝 [blog](https://yjoonjang.medium.com/kure-v2-a-korean-english-bilingual-late-interaction-retrieval-model-f6118e172d28)
+
 ### Compression & Token Pruning
 
 - *Introducing Neural Bag of Whole-Words with ColBERTer: Contextualized Late Interactions using Enhanced Reduction*<br>
@@ -480,6 +485,12 @@ An extensive and commented list of resources on late-interaction multivector ret
 
 - [lightonai/Reason-ModernColBERT](https://huggingface.co/lightonai/Reason-ModernColBERT)<br>
 	*Reasoning-focused late-interaction checkpoint fine-tuned on reasonir-hq, with strong BRIGHT benchmark performance for reasoning-intensive retrieval.*
+
+- [nlpai-lab/KURE-v2](https://huggingface.co/nlpai-lab/KURE-v2)<br>
+	*Korean-English bilingual late-interaction model (154M, skt/A.X-Encoder-base) with 128-dim token vectors and 8,192-token context, reporting 0.8160 average nDCG@10 on MTEB(kor, v2).*
+
+- [nlpai-lab/KURE-v2-unsupervised](https://huggingface.co/nlpai-lab/KURE-v2-unsupervised)<br>
+	*Stage-1 KURE-v2 checkpoint trained with weakly-supervised contrastive learning only (20.7M pairs, no relevance labels), reaching 0.7283 average nDCG@10 on MTEB(kor, v2).*
 
 ## Datasets and Encodings
 
