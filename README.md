@@ -206,6 +206,16 @@ An extensive and commented list of resources on late-interaction multivector ret
 	ICML, 2026<br>
 	📄 [paper](https://arxiv.org/abs/2608.19204)
 
+- *EigenLI: Spectral Approximations to Late Interaction*<br>
+	Archish S, Sabyasachi Basu, Ankit Garg, Ravishankar Krishnaswamy, Kirankumar Shiragur<br>
+	arXiv, 2026<br>
+	📄 [paper](https://arxiv.org/abs/2609.07561)
+
+- *Generative Late-Interaction Embeddings For Visual Document Retrieval*<br>
+	Mohamed Eltahir, Talal Aloushan, Rose Khairoalsendi, Jana Shata, Mohammed Alhassan, Leen Alrehaili, Tanveer Hussain, Naeemullah Khan<br>
+	arXiv, 2026<br>
+	📄 [paper](https://arxiv.org/abs/2609.11808)
+
 ### Multimodal & Vision
 
 - *ColPali: Efficient Document Retrieval with Vision Language Models*<br>
