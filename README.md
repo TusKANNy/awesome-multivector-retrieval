@@ -111,6 +111,16 @@ An extensive and commented list of resources on late-interaction multivector ret
 
 ### Compression & Token Pruning
 
+- *Compact Token Representations with Contextual Quantization for Efficient Document Re-ranking*<br>
+	Yingrui Yang, Yifan Qiao, Tao Yang<br>
+	ACL, 2022<br>
+	📄 [paper](https://doi.org/10.18653/v1/2022.acl-long.51)
+
+- *Learned Token Pruning in Contextualized Late Interaction over BERT (ColBERT)*<br>
+	Carlos Lassance, Maroua Maachou, Joohee Park, Stephane Clinchant<br>
+	SIGIR, 2022<br>
+	📄 [paper](https://doi.org/10.1145/3477495.3531835)
+
 - *Introducing Neural Bag of Whole-Words with ColBERTer: Contextualized Late Interactions using Enhanced Reduction*<br>
 	Sebastian Hofstatter, Omar Khattab, Sophia Althammer, Mete Sertkan, Allan Hanbury<br>
 	CIKM, 2022<br>
@@ -136,6 +146,11 @@ An extensive and commented list of resources on late-interaction multivector ret
 	SIGIR, 2023<br>
 	📄 [paper](https://arxiv.org/abs/2302.06587)
 
+- *Static Pruning for Multi-Representation Dense Retrieval*<br>
+	Antonio Acquavia, Craig Macdonald, Nicola Tonellotto<br>
+	DocEng, 2023<br>
+	📄 [paper](https://eprints.gla.ac.uk/300119/1/300119.pdf) | 🛠️ [code](https://github.com/cmacdonald/colbert_static_pruning)
+
 - *Rethinking the Role of Token Retrieval in Multi-Vector Retrieval*<br>
 	Jinhyuk Lee, Zhuyun Dai, Sai Meher Karthik Duddu, Tao Lei, Iftekhar Naim, Ming-Wei Chang, Vincent Y. Zhao<br>
 	NeurIPS, 2023<br>
@@ -145,6 +160,11 @@ An extensive and commented list of resources on late-interaction multivector ret
 	Thibault Formal, Stephane Clinchant, Herve Dejean, Carlos Lassance<br>
 	SIGIR, 2024<br>
 	📄 [paper](https://arxiv.org/abs/2404.13950)
+
+- *Reducing the Footprint of Multi-Vector Retrieval with Minimal Performance Impact via Token Pooling*<br>
+	Benjamin Clavié, Antoine Chaffin, Griffin Adams<br>
+	arXiv, 2024<br>
+	📄 [paper](https://arxiv.org/abs/2409.14683)
 
 - *Muvera: Multi-Vector Retrieval via Fixed Dimensional Encodings*<br>
 	Laxman Dhulipala, Majid Hadian, Rajesh Jayaram, Jason Lee, Vahab Mirrokni<br>
@@ -175,6 +195,11 @@ An extensive and commented list of resources on late-interaction multivector ret
 	Wondo Rhee, Chan Lim, Taewon Yoon, Gyuhyeon Choi, Jooyoung Lee<br>
 	ReNeuIR Workshop, 2025<br>
 	📄 [paper](https://www.researchgate.net/publication/397009313_ColPruner_Combining_Complementary_Pruning_Approaches_for_ColBERT_in_Web_Search)
+
+- *Towards Storage-Efficient Visual Document Retrieval: An Empirical Study on Reducing Patch-Level Embeddings*<br>
+	Yubo Ma, Jinsong Li, Yuhang Zang, Xiaobao Wu, Xiaoyi Dong, Pan Zhang, Yuhang Cao, Haodong Duan, Jiaqi Wang, Yixin Cao, Aixin Sun<br>
+	ACL Findings, 2025<br>
+	📄 [paper](https://doi.org/10.18653/v1/2025.findings-acl.1003)
 
 - *Sculpting the Vector Space: Towards Efficient Multi-Vector Visual Document Retrieval via Prune-then-Merge Framework*<br>
 	Yibo Yan, Mingdong Ou, Yi Cao, Xin Zou, Jiahao Huo, Shuliang Liu, James Kwok, Xuming Hu<br>
