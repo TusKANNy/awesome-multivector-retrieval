@@ -24,8 +24,11 @@ An extensive and commented list of resources on late-interaction multivector ret
 		- [General-Purpose](#general-purpose)
 		- [Specialized / Domain](#specialized--domain)
 	- [Datasets and Encodings](#datasets-and-encodings)
-		- [`MS MARCO v1`](#ms-marco-v1)
+		- [`NFCorpus`](#nfcorpus)
+		- [`SCIDOCS`](#scidocs)
+		- [`FiQA-2018`](#fiqa-2018)
 		- [`LoTTE-pooled`](#lotte-pooled)
+		- [`MS MARCO v1`](#ms-marco-v1)
 	- [Multimedia Resources](#multimedia-resources)
 
 ## Models
@@ -537,14 +540,40 @@ An extensive and commented list of resources on late-interaction multivector ret
 
 ## Datasets and Encodings
 
-### `MS MARCO v1`
-- **Documents**: `8,841,823`
-- **Queries** [`dev.small`]: `6,980`
-- **Reference Metric**: `MRR@10`
+### `NFCorpus`
+- **Documents**: `3,633`
+- **Queries** [`test`]: `323`
+- **Reference Metric**: `nDCG@10`
 
-| Encoding | Link | Vector dim | Avg vectors per doc | Avg vectors per query | MRR@10 |
+| Encoding | Link | Vector dim | Avg vectors per doc | Avg vectors per query | nDCG@10 |
 |---|---|---:|---:|---:|---:|
-| `colbertv2` | [link](https://huggingface.co/datasets/tuskanny/ms_marco_colbertv2/tree/main) | 128 | 67 | 32 | 0.397 |
+| `colbertv2` | [link](https://huggingface.co/datasets/tuskanny/nfcorpus_colbertv2/tree/main) | 128 | 154.5 | 32.0 | 0.3299 |
+| `modern_colbert` | [link](https://huggingface.co/datasets/tuskanny/nfcorpus_modern_colbert/tree/main) | 128 | 237.4 | 8.6 | 0.3792 |
+| `lateon` | [link](https://huggingface.co/datasets/tuskanny/nfcorpus_lateon/tree/main) | 128 | 237.4 | 8.6 | 0.3809 |
+
+
+### `SCIDOCS`
+- **Documents**: `25,657`
+- **Queries** [`test`]: `1,000`
+- **Reference Metric**: `nDCG@10`
+
+| Encoding | Link | Vector dim | Avg vectors per doc | Avg vectors per query | nDCG@10 |
+|---|---|---:|---:|---:|---:|
+| `colbertv2` | [link](https://huggingface.co/datasets/tuskanny/scidocs_colbertv2/tree/main) | 128 | 147.0 | 32.0 | 0.1581 |
+| `modern_colbert` | [link](https://huggingface.co/datasets/tuskanny/scidocs_modern_colbert/tree/main) | 128 | 187.8 | 17.5 | 0.1949 |
+| `lateon` | [link](https://huggingface.co/datasets/tuskanny/scidocs_lateon/tree/main) | 128 | 187.8 | 17.4 | 0.2190 |
+
+
+### `FiQA-2018`
+- **Documents**: `57,638`
+- **Queries** [`test`]: `648`
+- **Reference Metric**: `nDCG@10`
+
+| Encoding | Link | Vector dim | Avg vectors per doc | Avg vectors per query | nDCG@10 |
+|---|---|---:|---:|---:|---:|
+| `colbertv2` | [link](https://huggingface.co/datasets/tuskanny/fiqa_colbertv2/tree/main) | 128 | 105.0 | 32.0 | 0.3472 |
+| `modern_colbert` | [link](https://huggingface.co/datasets/tuskanny/fiqa_modern_colbert/tree/main) | 128 | 133.5 | 16.7 | 0.4555 |
+| `lateon` | [link](https://huggingface.co/datasets/tuskanny/fiqa_lateon/tree/main) | 128 | 133.5 | 16.7 | 0.5250 |
 
 
 ### `LoTTE-pooled`
@@ -554,7 +583,17 @@ An extensive and commented list of resources on late-interaction multivector ret
 
 | Encoding | Link | Vector dim | Avg vectors per doc | Avg vectors per query  | Success@5 |
 |---|---|---:|---:|---:|---:|
-| `colbertv2` | [link](https://huggingface.co/datasets/tuskanny/lotte_pooled_colbertv2/tree/main) | 128 | 109 | 32 | `N/A` |
+| `colbertv2` | [link](https://huggingface.co/datasets/tuskanny/lotte_pooled_colbertv2/tree/main) | 128 | 109.6 | 32.0 | `N/A` |
+
+
+### `MS MARCO v1`
+- **Documents**: `8,841,823`
+- **Queries** [`dev.small`]: `6,980`
+- **Reference Metric**: `MRR@10`
+
+| Encoding | Link | Vector dim | Avg vectors per doc | Avg vectors per query | MRR@10 |
+|---|---|---:|---:|---:|---:|
+| `colbertv2` | [link](https://huggingface.co/datasets/tuskanny/ms_marco_colbertv2/tree/main) | 128 | 67.6 | 32.0 | 0.397 |
 
 
 ## Multimedia Resources
