@@ -26,10 +26,15 @@ An extensive and commented list of resources on late-interaction multivector ret
 		- [Multimodal \& Vision](#multimodal--vision-1)
 	- [Datasets and Encodings](#datasets-and-encodings)
 		- [`NFCorpus`](#nfcorpus)
+		- [`SciFact`](#scifact)
+		- [`ArguAna`](#arguana)
 		- [`SCIDOCS`](#scidocs)
 		- [`FiQA-2018`](#fiqa-2018)
+		- [`TREC-COVID`](#trec-covid)
+		- [`Quora`](#quora)
 		- [`LoTTE-pooled`](#lotte-pooled)
 		- [`MS MARCO v1`](#ms-marco-v1)
+		- [`ViDoRe v3`](#vidore-v3)
 	- [Multimedia Resources](#multimedia-resources)
 
 ## Models
@@ -577,7 +582,36 @@ An extensive and commented list of resources on late-interaction multivector ret
 |---|---|---:|---:|---:|---:|
 | `colbertv2` | [link](https://huggingface.co/datasets/tuskanny/nfcorpus_colbertv2/tree/main) | 128 | 154.5 | 32.0 | 0.3299 |
 | `modern_colbert` | [link](https://huggingface.co/datasets/tuskanny/nfcorpus_modern_colbert/tree/main) | 128 | 237.4 | 8.6 | 0.3792 |
+| `answerai_colbert_small` | [link](https://huggingface.co/datasets/robro612/nfcorpus_answerai_colbert_small/tree/main) | 96 | 235.5 | 32.0 | 0.3683 |
+| `modernbert_xtr` | [link](https://huggingface.co/datasets/robro612/nfcorpus_modernbert_xtr/tree/main) | 128 | 288.2 | 32.0 | 0.3430 |
 | `lateon` | [link](https://huggingface.co/datasets/tuskanny/nfcorpus_lateon/tree/main) | 128 | 237.4 | 8.6 | 0.3809 |
+| `lateon_hpool_regularized` | [link](https://huggingface.co/datasets/robro612/nfcorpus_lateon_hpool_regularized/tree/main) | 128 | 238.5 | 8.6 | 0.3803 |
+| `mlateon` | [link](https://huggingface.co/datasets/robro612/nfcorpus_mlateon/tree/main) | 128 | 343.7 | 7.4 | 0.3786 |
+| `neomme_260m_li` | [link](https://huggingface.co/datasets/robro612/nfcorpus_neomme_260m_li/tree/main) | 128 | 337.3 | 17.1 | 0.3081 |
+
+
+### `SciFact`
+- **Documents**: `5,183`
+- **Queries** [`test`]: `300`
+- **Reference Metric**: `nDCG@10`
+
+| Encoding | Link | Vector dim | Avg vectors per doc | Avg vectors per query | nDCG@10 |
+|---|---|---:|---:|---:|---:|
+| `answerai_colbert_small` | [link](https://huggingface.co/datasets/robro612/scifact_answerai_colbert_small/tree/main) | 96 | 235.7 | 32.0 | 0.7431 |
+| `lateon` | [link](https://huggingface.co/datasets/robro612/scifact_lateon/tree/main) | 128 | 231.2 | 21.0 | 0.7627 |
+| `lateon_hpool_regularized` | [link](https://huggingface.co/datasets/robro612/scifact_lateon_hpool_regularized/tree/main) | 128 | 231.2 | 21.0 | 0.7608 |
+| `mlateon` | [link](https://huggingface.co/datasets/robro612/scifact_mlateon/tree/main) | 128 | 314.4 | 21.0 | 0.7605 |
+| `neomme_260m_li` | [link](https://huggingface.co/datasets/robro612/scifact_neomme_260m_li/tree/main) | 128 | 321.2 | 31.0 | 0.7161 |
+
+
+### `ArguAna`
+- **Documents**: `8,674`
+- **Queries** [`test`]: `1,406`
+- **Reference Metric**: `nDCG@10`
+
+| Encoding | Link | Vector dim | Avg vectors per doc | Avg vectors per query | nDCG@10 |
+|---|---|---:|---:|---:|---:|
+| `neomme_260m_li` | [link](https://huggingface.co/datasets/robro612/arguana_neomme_260m_li/tree/main) | 128 | 194.5 | 238.1 | 0.4163 |
 
 
 ### `SCIDOCS`
@@ -589,7 +623,11 @@ An extensive and commented list of resources on late-interaction multivector ret
 |---|---|---:|---:|---:|---:|
 | `colbertv2` | [link](https://huggingface.co/datasets/tuskanny/scidocs_colbertv2/tree/main) | 128 | 147.0 | 32.0 | 0.1581 |
 | `modern_colbert` | [link](https://huggingface.co/datasets/tuskanny/scidocs_modern_colbert/tree/main) | 128 | 187.8 | 17.5 | 0.1949 |
+| `answerai_colbert_small` | [link](https://huggingface.co/datasets/robro612/scidocs_answerai_colbert_small/tree/main) | 96 | 187.9 | 32.0 | 0.1848 |
 | `lateon` | [link](https://huggingface.co/datasets/tuskanny/scidocs_lateon/tree/main) | 128 | 187.8 | 17.4 | 0.2190 |
+| `lateon_hpool_regularized` | [link](https://huggingface.co/datasets/robro612/scidocs_lateon_hpool_regularized/tree/main) | 128 | 189.6 | 17.4 | 0.2057 |
+| `mlateon` | [link](https://huggingface.co/datasets/robro612/scidocs_mlateon/tree/main) | 128 | 227.7 | 15.3 | 0.2055 |
+| `neomme_260m_li` | [link](https://huggingface.co/datasets/robro612/scidocs_neomme_260m_li/tree/main) | 128 | 214.6 | 26.2 | 0.1531 |
 
 
 ### `FiQA-2018`
@@ -601,7 +639,35 @@ An extensive and commented list of resources on late-interaction multivector ret
 |---|---|---:|---:|---:|---:|
 | `colbertv2` | [link](https://huggingface.co/datasets/tuskanny/fiqa_colbertv2/tree/main) | 128 | 105.0 | 32.0 | 0.3472 |
 | `modern_colbert` | [link](https://huggingface.co/datasets/tuskanny/fiqa_modern_colbert/tree/main) | 128 | 133.5 | 16.7 | 0.4555 |
+| `answerai_colbert_small` | [link](https://huggingface.co/datasets/robro612/fiqa_answerai_colbert_small/tree/main) | 96 | 126.9 | 32.0 | 0.4132 |
 | `lateon` | [link](https://huggingface.co/datasets/tuskanny/fiqa_lateon/tree/main) | 128 | 133.5 | 16.7 | 0.5250 |
+| `lateon_hpool_regularized` | [link](https://huggingface.co/datasets/robro612/fiqa_lateon_hpool_regularized/tree/main) | 128 | 133.5 | 16.7 | 0.5065 |
+| `mlateon` | [link](https://huggingface.co/datasets/robro612/fiqa_mlateon/tree/main) | 128 | 178.1 | 16.4 | 0.4999 |
+| `neomme_260m_li` | [link](https://huggingface.co/datasets/robro612/fiqa_neomme_260m_li/tree/main) | 128 | 151.8 | 24.4 | 0.3678 |
+
+
+### `TREC-COVID`
+- **Documents**: `171,332`
+- **Queries** [`test`]: `50`
+- **Reference Metric**: `nDCG@10`
+
+| Encoding | Link | Vector dim | Avg vectors per doc | Avg vectors per query | nDCG@10 |
+|---|---|---:|---:|---:|---:|
+| `answerai_colbert_small` | [link](https://huggingface.co/datasets/robro612/trec-covid_answerai_colbert_small/tree/main) | 96 | 171.0 | 32.0 | 0.8297 |
+| `lateon` | [link](https://huggingface.co/datasets/robro612/trec-covid_lateon/tree/main) | 128 | 171.1 | 17.4 | 0.8390 |
+| `lateon_hpool_regularized` | [link](https://huggingface.co/datasets/robro612/trec-covid_lateon_hpool_regularized/tree/main) | 128 | 171.1 | 17.4 | 0.8282 |
+| `mlateon` | [link](https://huggingface.co/datasets/robro612/trec-covid_mlateon/tree/main) | 128 | 233.6 | 17.8 | 0.8194 |
+| `neomme_260m_li` | [link](https://huggingface.co/datasets/robro612/trec-covid_neomme_260m_li/tree/main) | 128 | 231.3 | 24.5 | 0.7634 |
+
+
+### `Quora`
+- **Documents**: `522,931`
+- **Queries** [`test`]: `10,000`
+- **Reference Metric**: `nDCG@10`
+
+| Encoding | Link | Vector dim | Avg vectors per doc | Avg vectors per query | nDCG@10 |
+|---|---|---:|---:|---:|---:|
+| `neomme_260m_li` | [link](https://huggingface.co/datasets/robro612/quora_neomme_260m_li/tree/main) | 128 | 14.3 | 21.8 | 0.7014 |
 
 
 ### `LoTTE-pooled`
@@ -609,9 +675,14 @@ An extensive and commented list of resources on late-interaction multivector ret
 - **Queries** [`dev/search`]: `2,931`
 - **Reference Metric**: `Success@5`
 
-| Encoding | Link | Vector dim | Avg vectors per doc | Avg vectors per query  | Success@5 |
-|---|---|---:|---:|---:|---:|
-| `colbertv2` | [link](https://huggingface.co/datasets/tuskanny/lotte_pooled_colbertv2/tree/main) | 128 | 109.6 | 32.0 | `N/A` |
+| Encoding | Link | Vector dim | Avg vectors per doc | Avg vectors per query | Success@5 | nDCG@10 |
+|---|---|---:|---:|---:|---:|---:|
+| `colbertv2` | [link](https://huggingface.co/datasets/tuskanny/lotte_pooled_colbertv2/tree/main) | 128 | 109.6 | 32.0 | `N/A` | `N/A` |
+| `answerai_colbert_small` | [link](https://huggingface.co/datasets/robro612/lotte_pooled_dev_search_answerai_colbert_small/tree/main) | 96 | 139.7 | 32.0 | `N/A` | 0.5154 |
+| `lateon` | [link](https://huggingface.co/datasets/robro612/lotte_pooled_dev_search_lateon/tree/main) | 128 | 146.0 | 12.2 | `N/A` | 0.5895 |
+| `lateon_hpool_regularized` | [link](https://huggingface.co/datasets/robro612/lotte_pooled_dev_search_lateon_hpool_regularized/tree/main) | 128 | 146.0 | 12.2 | `N/A` | 0.5784 |
+| `mlateon` | [link](https://huggingface.co/datasets/robro612/lotte_pooled_dev_search_mlateon/tree/main) | 128 | 218.5 | 11.9 | `N/A` | 0.5706 |
+| `neomme_260m_li` | [link](https://huggingface.co/datasets/robro612/lotte_pooled_dev_search_neomme_260m_li/tree/main) | 128 | 189.5 | 19.5 | `N/A` | 0.4291 |
 
 
 ### `MS MARCO v1`
@@ -622,6 +693,27 @@ An extensive and commented list of resources on late-interaction multivector ret
 | Encoding | Link | Vector dim | Avg vectors per doc | Avg vectors per query | MRR@10 |
 |---|---|---:|---:|---:|---:|
 | `colbertv2` | [link](https://huggingface.co/datasets/tuskanny/ms_marco_colbertv2/tree/main) | 128 | 67.6 | 32.0 | 0.397 |
+| `answerai_colbert_small` | [link](https://huggingface.co/datasets/robro612/msmarco_answerai_colbert_small/tree/main) | 96 | 67.6 | 32.0 | 0.3692 |
+| `lateon` | [link](https://huggingface.co/datasets/robro612/msmarco_lateon/tree/main) | 128 | 70.9 | 10.2 | 0.3922 |
+| `lateon_hpool_regularized` | [link](https://huggingface.co/datasets/robro612/msmarco_lateon_hpool_regularized/tree/main) | 128 | 70.9 | 10.2 | 0.3793 |
+| `mlateon` | [link](https://huggingface.co/datasets/robro612/msmarco_mlateon/tree/main) | 128 | 79.6 | 9.7 | 0.3882 |
+| `neomme_260m_li` | [link](https://huggingface.co/datasets/robro612/msmarco_neomme_260m_li/tree/main) | 128 | 73.0 | 17.9 | 0.3267 |
+
+
+### `ViDoRe v3`
+- **Reference Metric**: `nDCG@10`
+- Visual document retrieval: each document is a page image.
+
+| Subset | Encoding | Link | Documents | Queries [`test`] | Vector dim | Avg vectors per doc | Avg vectors per query | nDCG@10 |
+|---|---|---|---:|---:|---:|---:|---:|---:|
+| `hr` | `neomme_260m_li` | [link](https://huggingface.co/datasets/robro612/vidore3_hr_neomme_260m_li/tree/main) | 1,110 | 1,908 | 128 | 2991.8 | 38.5 | 0.5520 |
+| `computerscience` | `neomme_260m_li` | [link](https://huggingface.co/datasets/robro612/vidore3_computerscience_neomme_260m_li/tree/main) | 1,360 | 1,290 | 128 | 3266.0 | 34.8 | 0.6745 |
+| `physics` | `neomme_260m_li` | [link](https://huggingface.co/datasets/robro612/vidore3_physics_neomme_260m_li/tree/main) | 1,674 | 1,812 | 128 | 2342.0 | 36.2 | 0.4261 |
+| `energy` | `neomme_260m_li` | [link](https://huggingface.co/datasets/robro612/vidore3_energy_neomme_260m_li/tree/main) | 2,225 | 1,848 | 128 | 2906.5 | 37.0 | 0.5932 |
+| `pharmaceuticals` | `neomme_260m_li` | [link](https://huggingface.co/datasets/robro612/vidore3_pharmaceuticals_neomme_260m_li/tree/main) | 2,313 | 2,184 | 128 | 2542.4 | 38.4 | 0.5958 |
+| `financefr` | `neomme_260m_li` | [link](https://huggingface.co/datasets/robro612/vidore3_financefr_neomme_260m_li/tree/main) | 2,384 | 1,920 | 128 | 3034.0 | 37.3 | 0.3771 |
+| `finance` | `neomme_260m_li` | [link](https://huggingface.co/datasets/robro612/vidore3_finance_neomme_260m_li/tree/main) | 2,942 | 1,854 | 128 | 3266.0 | 37.8 | 0.5641 |
+| `industrial` | `neomme_260m_li` | [link](https://huggingface.co/datasets/robro612/vidore3_industrial_neomme_260m_li/tree/main) | 5,244 | 1,698 | 128 | 3224.6 | 39.7 | 0.3991 |
 
 
 ## Multimedia Resources
