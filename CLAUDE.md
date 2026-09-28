@@ -15,7 +15,7 @@ Include resources about **late-interaction / multivector retrieval**: ColBERT-st
 - **Models** → `Foundational Models`, `General Models & Training`, `Compression & Token Pruning`, `Multimodal & Vision`, or `Theory & Analysis`.
 - **Retrieval** → `Indexing & Search Algorithms` or `Scoring Kernels`.
 - **Software Libraries** → `Training & Inference Frameworks`, `Retrieval Engines & Indexes`, or `Scoring Kernels`. Code libraries, linked by their repo or homepage.
-- **Model Checkpoints** → `General-Purpose` or `Specialized / Domain`. Released model weights, usually HuggingFace.
+- **Model Checkpoints** → `General-Purpose`, `Specialized / Domain`, or `Multimodal & Vision`. Released model weights, usually HuggingFace.
 - **Datasets and Encodings** → datasets and their precomputed embeddings.
 - **Multimedia Resources** → talks, podcasts, videos.
 

@@ -23,6 +23,7 @@ An extensive and commented list of resources on late-interaction multivector ret
 	- [Model Checkpoints](#model-checkpoints)
 		- [General-Purpose](#general-purpose)
 		- [Specialized / Domain](#specialized--domain)
+		- [Multimodal \& Vision](#multimodal--vision-1)
 	- [Datasets and Encodings](#datasets-and-encodings)
 		- [`NFCorpus`](#nfcorpus)
 		- [`SCIDOCS`](#scidocs)
@@ -111,6 +112,11 @@ An extensive and commented list of resources on late-interaction multivector ret
 	Youngjoon Jang<br>
 	Blog, 2026<br>
 	📝 [blog](https://yjoonjang.medium.com/kure-v2-a-korean-english-bilingual-late-interaction-retrieval-model-f6118e172d28)
+
+- *SmallReason-ColBERT: An Ultra-Small Late-Interaction Retriever for Reasoning Intensive Retrieval*<br>
+	Abdelrahman Abdallah, Mohammed Ali, Adam Jatowt<br>
+	EMNLP, 2026<br>
+	📄 [paper](https://arxiv.org/abs/2609.29652) | 🛠️ [code](https://github.com/DataScienceUIBK/SmallReason-ColBERT)
 
 ### Compression & Token Pruning
 
@@ -213,6 +219,11 @@ An extensive and commented list of resources on late-interaction multivector ret
 	Ailar Mahdizadeh, Aria Salari, Sohail Rajabi, Shahriar Mirabbasi, Panos Nasiopoulos, Alireza Morsali<br>
 	arXiv, 2026<br>
 	📄 [paper](https://arxiv.org/abs/2608.02969)
+
+- *AdaMerge: Tuning-Free Patch Compression for Multi-Vector Visual Document Retrieval*<br>
+	Jianxin You, Kun Ni<br>
+	CIKM, 2026<br>
+	📄 [paper](https://arxiv.org/abs/2609.22562)
 
 - *Multi-Vector Index Compression in Any Modality*<br>
 	Hanxiang Qin, Alexander Martin, Rohan Jha, Chunsheng Zuo, Reno Kriz, Benjamin Van Durme<br>
@@ -537,6 +548,23 @@ An extensive and commented list of resources on late-interaction multivector ret
 
 - [nlpai-lab/KURE-v2-unsupervised](https://huggingface.co/nlpai-lab/KURE-v2-unsupervised)<br>
 	*Stage-1 KURE-v2 checkpoint trained with weakly-supervised contrastive learning only (20.7M pairs, no relevance labels), reaching 0.7283 average nDCG@10 on MTEB(kor, v2).*
+
+- [DataScience-UIBK/SmallReason-ColBERT-32M](https://huggingface.co/DataScience-UIBK/SmallReason-ColBERT-32M)<br>
+	*Ultra-small reasoning retriever (32M, mxbai-edge-colbert-v0-32m-based) with a query-side token-importance head, reporting 21.41 mean nDCG@10 on BRIGHT; load via `WeightedColBERT.from_base()`, as plain PyLate loading drops the head.*
+
+### Multimodal & Vision
+
+- [vidore/colpali-v1.3](https://huggingface.co/vidore/colpali-v1.3)<br>
+	*Latest ColPali release (PaliGemma-3B + LoRA) for visual document retrieval, producing ColBERT-style multi-vector embeddings of page images.*
+
+- [vidore/colqwen2-v1.0](https://huggingface.co/vidore/colqwen2-v1.0)<br>
+	*ColPali-style visual document retriever on Qwen2-VL-2B-Instruct, accepting dynamic image resolutions without aspect-ratio distortion (up to 768 patches).*
+
+- [vidore/colqwen2.5-v0.2](https://huggingface.co/vidore/colqwen2.5-v0.2)<br>
+	*ColPali-style visual document retriever on Qwen2.5-VL-3B-Instruct, with dynamic image resolutions (up to 768 patches).*
+
+- [vidore/colSmol-256M](https://huggingface.co/vidore/colSmol-256M) / [vidore/colSmol-500M](https://huggingface.co/vidore/colSmol-500M)<br>
+	*Lightweight ColPali-style visual document retrievers built on SmolVLM-256M-Instruct and SmolVLM-500M-Instruct.*
 
 ## Datasets and Encodings
 
