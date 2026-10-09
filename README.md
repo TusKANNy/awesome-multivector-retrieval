@@ -260,6 +260,11 @@ An extensive and commented list of resources on late-interaction multivector ret
 	arXiv, 2026<br>
 	📄 [paper](https://arxiv.org/abs/2609.11808)
 
+- *ReinPool: Reinforcement Learning Pooling Multi-Vector Embeddings for Retrieval System*<br>
+	Sungguk Cha, DongWook Kim, Mintae Kim, Youngsub Han, Byoung-Ki Jeon, Sangyeob Lee<br>
+	arXiv, 2026<br>
+	📄 [paper](https://arxiv.org/abs/2601.07125)
+
 ### Multimodal & Vision
 
 - *ColPali: Efficient Document Retrieval with Vision Language Models*<br>
