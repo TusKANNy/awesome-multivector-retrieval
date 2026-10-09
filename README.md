@@ -292,6 +292,16 @@ An extensive and commented list of resources on late-interaction multivector ret
 	arXiv, 2026<br>
 	📄 [paper](https://arxiv.org/abs/2608.25412)
 
+- *Introducing topk-embed-v1: Frontier retrieval at the lowest cost*<br>
+	TopK Team<br>
+	Blog, 2026<br>
+	📝 [blog](https://www.topk.io/blog/topk-embed-v1)
+
+- *Multimodal embeddings beyond a single vector*<br>
+	Perplexity Research<br>
+	Blog, 2026<br>
+	📝 [blog](https://www.perplexity.ai/hub/blog/multimodal-embeddings-beyond-a-single-vector)
+
 ### Theory
 
 - *Multi-Vector Embeddings are Provably More Expressive than Single Vector Embeddings*<br>
@@ -575,6 +585,18 @@ An extensive and commented list of resources on late-interaction multivector ret
 
 - [vidore/colSmol-256M](https://huggingface.co/vidore/colSmol-256M) / [vidore/colSmol-500M](https://huggingface.co/vidore/colSmol-500M)<br>
 	*Lightweight ColPali-style visual document retrievers built on SmolVLM-256M-Instruct and SmolVLM-500M-Instruct.*
+
+- [topk-io/topk-embed-v1-xsmall](https://huggingface.co/topk-io/topk-embed-v1-xsmall)<br>
+	*0.8B multimodal late-interaction retriever fine-tuned from Qwen3.5-0.8B, with Matryoshka dimensions up to 1024.*
+
+- [topk-io/topk-embed-v1-small](https://huggingface.co/topk-io/topk-embed-v1-small)<br>
+	*2B multimodal late-interaction retriever fine-tuned from Qwen3.5-2B, with Matryoshka dimensions up to 2048.*
+
+- [perplexity-ai/pplx-embed-v2-late-0.6b](https://huggingface.co/perplexity-ai/pplx-embed-v2-late-0.6b)<br>
+	*0.6B multimodal late-interaction retriever on Qwen3.5, distilled from an 18B ColBERT teacher and sharing its embedding space with the 9B model.*
+
+- [perplexity-ai/pplx-embed-v2-late-9b](https://huggingface.co/perplexity-ai/pplx-embed-v2-late-9b)<br>
+	*9B multimodal late-interaction retriever on Qwen3.5 with 128-dim token vectors, distilled from an 18B ColBERT teacher.*
 
 ## Datasets and Encodings
 
